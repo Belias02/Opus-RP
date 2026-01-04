@@ -1,8 +1,10 @@
-//Uniques
+[
+	//Uniques
 
-//New
+	//New
 
-//Base
+	//Base
+
 	{
 		"name": "Settler",
 		"unitType": "Civilian",
@@ -13,3 +15,12 @@
 			"Requires at least [3] population","[-1] [Population] <upon constructing [Settler] [in this city]>"],
 		"hurryCostModifier": 20
 	},
+	{
+		"name": "Worker",
+		"unitType": "Civilian",
+		"movement": 2,
+		"requiredTech": "Agriculture",
+		"uniques": ["Can build [Land] improvements on tiles <[2] times> <after which this unit is consumed>", "Automation is a primary action"],
+		"cost": 15
+	},
+]
