@@ -1,0 +1,12 @@
+[
+  //New
+  {
+		"name": "Nation Capitol",
+//		"uniqueTo": "Arepandia",
+		"maintenance": 1,
+		"uniques": ["[+20]% Production when constructing [Land] units [in this city]","[+10]% [Culture]","[+5]% [Food]","[+10]% [Gold]",
+			"Creates a [Grand Palace] improvement on a specific tile",
+			"[+1 Culture] from [Great Improvement] tiles [in this city] <within [1] tiles of a [Grand Palace]>",
+    "Unbuildable"],
+	},
+]
