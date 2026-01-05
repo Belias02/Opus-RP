@@ -2,6 +2,51 @@
 	//Uniques
 
 	//New
+	
+	{
+		"name": "Supplies Caravan",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 70,
+		"requiredTech": "The Wheel",
+		"uniques": ["Gain [3] [Food] <in this city> <by consuming this unit>",
+			"Can be purchased for [3] [Food] [in all cities]",
+			"Unbuildable", "Shown while unbuildable"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Landlord",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 70,
+		"requiredTech": "The Wheel",
+		"uniques": ["Gain [3] [Culture] <in this city> <by consuming this unit>",
+			"Can be purchased for [3] [Culture] [in all cities]",
+			"Requires at least [2] population", "Unbuildable", "Shown while unbuildable"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Craftsman",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 70,
+		"requiredTech": "The Wheel",
+		"uniques": ["Gain [3] [Production] <in this city> <by consuming this unit>",
+			"Can be purchased for [3] [Production] [in all cities]",
+			"Requires at least [2] population", "Unbuildable", "Shown while unbuildable"],
+		"hurryCostModifier": 20
+	},
+	{
+		"name": "Scribe",
+		"unitType": "Civilian",
+		"movement": 2,
+		"cost": 70,
+		"requiredTech": "The Wheel",
+		"uniques": ["Gain [3] [Science] <in this city> <by consuming this unit>",
+			"Can be purchased for [3] [Science] [in all cities]",
+			"Requires at least [2] population", "Unbuildable", "Shown while unbuildable"],
+		"hurryCostModifier": 20
+	},
 
 	//Base
 
