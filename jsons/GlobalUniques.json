@@ -13,6 +13,7 @@
         "[+15]% Culture cost of natural border growth [in all cities]",
         "May enter foreign tiles without open borders",
         "[+3] HP when healing <when adjacent to a [Supplies Caravan] unit>",
+        "[This unit] loses [1] movement <upon entering a [Fort] tile>"",
     ],
     "civilopediaText": [
         {"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
