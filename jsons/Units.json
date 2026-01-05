@@ -47,6 +47,21 @@
 			"Requires at least [2] population", "Unbuildable", "Shown while unbuildable"],
 		"hurryCostModifier": 20
 	},
+	
+	{
+		"name": "Warlord",
+		"replaces": "Great General",
+		"uniqueTo": "Barbarians",
+		"unitType": "Civilian",
+		"uniques": [
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat <for [Land] units>",
+            "Is part of Great Person group [General]",
+            "[This Unit] gets a name from the [General] group",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
 
 	//Base
 
