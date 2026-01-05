@@ -1,0 +1,12 @@
+[
+  
+	// Base
+	{
+		"name": "Scouting II",
+		"prerequisites": ["Scouting I"],
+		"uniques": ["[+1] Sight", "Can see invisible [Land] units"],
+		"unitTypes": ["Scout"],
+        "column": 8,
+        "row": 2
+	},
+]
