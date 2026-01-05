@@ -1,0 +1,16 @@
+[
+  //New
+
+	//Base
+	{
+		"name": "Barbarians",
+		"outerColor": [0,0,0],
+        "innerColor": [185,12,12],
+		"uniques": ["[-10] HP when healing <in tiles not adjacent to [Barbarian encampment] tiles>", "[+20]% Health from pillaging tiles",
+			"Free [Warlord] appears <every [15] turns>","Invisible to non-adjacent units <in [Forest] tiles>","Invisible to non-adjacent units <in [Jungle] tiles>","Invisible to non-adjacent units <in [Ocean] tiles>",
+      "[+20]% Strength <in tiles adjacent to [Barbarian encampment] tiles>","[+30]% Strength <vs cities>",
+      "Can carry [2] [Missile] units","Free [Warlord] appears <every [5] turns> <after discovering [Rocketry]>",
+      "[Water] units gain the [Coastal Raider I] promotion","[Water] units gain the [Boarding Party I] promotion"]
+	}
+
+]
