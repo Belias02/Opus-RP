@@ -13,6 +13,8 @@
         "minimalCityDistanceOnDifferentContinents": 1,
         "minimumWarDuration": 1,
         "maxImprovementTechErasForward": 1,
+        "pantheonBase": 10,
+        "pantheonGrowth": 2,
         "unitUpgradeCost": {}
     }
 }
