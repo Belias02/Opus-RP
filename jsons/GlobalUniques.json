@@ -1,19 +1,26 @@
 {
     "name": "Global Uniques",
     "uniques": [
+        //default stuff
         "Requires establishing embassies to conduct advanced diplomacy",
         "[-75]% growth [in all cities] <when between [-10] and [-1] [Happiness]>",
         "Nullifies Growth [in all cities] <when below [-10] [Happiness]>",
         "[-50]% [Production] [in all cities] <when below [-10] [Happiness]>",
         "[-33]% Strength <for [All] units> <when below [-10] [Happiness]>",
         "Cannot build [Settler] units <when below [-10] [Happiness]>",
-      
+
+        //new basic stuff
         "Rebel units may spawn <when below [-13] [Happiness]>",
         "[-1] Sight <for [All] units> <before discovering [Radio]",
-        "[+15]% Culture cost of natural border growth [in all cities]",
-        "May enter foreign tiles without open borders",
+        "May enter foreign tiles without open borders", //should probably be limited to specific units
         "[+3] HP when healing <when adjacent to a [Supplies Caravan] unit>",
         "[This unit] loses [1] movement <upon entering a [Fort] tile>",
+
+        //City,town basic mechanics
+        "[+1000000]% Culture cost of natural border growth [in all cities]",
+        "[+1000000]% Gold cost of acquiring tiles [in all cities]",
+        "Each city founded increases culture cost of policies [100]% less than normal",
+        "Each city founded increases Science cost of Technologies [100]% less than normal"
     ],
     "civilopediaText": [
         {"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
