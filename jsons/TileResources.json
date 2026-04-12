@@ -1,0 +1,10 @@
+[
+  "name": "CityImportanceFactor",
+  "resourceType": "Strategic",
+  "uniques": ["Excluded from map editor","City-level resource"],
+  "civilopediaText": [
+			{
+				"text": "Represents how important and developed a city or town is. Requires a certain level to upgrade a town into a city."
+			},
+		] 
+]
