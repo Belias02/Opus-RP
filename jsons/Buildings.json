@@ -27,6 +27,7 @@
 			"Minor City","City Status",
 			"Automatically built in all cities where it is buildable",
 			"Unsellable","Never destroyed when the city is captured",
+			"Nullifies Growth [in this city] <in cities with at least [5] [Population]>",
 			"Only available <in cities without a [City Status]> <in cities with [1] [Population]>",
 			"Comment [This is a major city now, and no longer just a town. s]"
 		],
