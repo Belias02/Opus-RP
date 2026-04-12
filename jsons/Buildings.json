@@ -9,4 +9,23 @@
 			"[+1 Culture] from [Great Improvement] tiles [in this city] <within [1] tiles of a [Grand Palace]>",
     "Unbuildable"],
 	},
+
+//City upgrade stuff
+  {
+		"name": "Upgrade Town to City",
+	  	"isNationalWonder": true,
+	  	"cost": 0,
+		"uniques": ["Gain a free [_City] [in this city]","Remove [Upgrade Town to City] [in this city]", //I hope this works
+			"Automatically built in all cities where it is buildable", //will later add conditionals
+			"Only available <when above [30] [CityImportanceFactor]> <in cities without a [_City]> <in cities with at least [4] [Population]>"			
+		],
+	},
+  {
+		"name": "_City",
+	  	"cost": 0,
+		"uniques": ["Major City",
+			"Comment [This is a major city now, and no longer just a town. It can now build all sorts of specialization buildings and work specialist slots]"
+		],
+	},
+	
 ]
