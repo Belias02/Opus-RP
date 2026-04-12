@@ -1,4 +1,5 @@
 [
+{
   "name": "CityImportanceFactor",
   "resourceType": "Strategic",
   "uniques": ["Excluded from map editor","City-level resource"],
@@ -7,4 +8,25 @@
 				"text": "Represents how important and developed a city or town is. Requires a certain level to upgrade a town into a city."
 			},
 		] 
+},
+{
+  "name": "MajorCityLimit",
+  "resourceType": "Strategic",
+  "uniques": ["Excluded from map editor"],
+  "civilopediaText": [
+			{
+				"text": "Displays the amount of towns you are currently allowed to upgrade into major cities."
+			},
+		] 
+},
+{
+  "name": "MajorCityCount",
+  "resourceType": "Bonus",
+  "uniques": ["Excluded from map editor"],
+  "civilopediaText": [
+			{
+				"text": "Is used to count all major cities you own that aren't puppets or in resistance, used for some in game calculations."
+			},
+		] 
+}
 ]
