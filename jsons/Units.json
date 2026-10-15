@@ -2,7 +2,7 @@
 	//Uniques
 
 	//New
-	
+	/*
 	{
 		"name": "Supplies Caravan",
 		"unitType": "Civilian",
@@ -61,7 +61,7 @@
             "[This Unit] gets a name from the [General] group",
 			"Great Person - [War]", "Unbuildable", "Uncapturable"],
 		"movement": 2
-	},
+	},*/
 
 	//Base
 
