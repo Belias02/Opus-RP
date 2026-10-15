@@ -2,7 +2,7 @@
   //New
 
   {
-		"name": "name",
+		"name": "Firelord",
 		"leaderName": "leader",
 	  	"style": "Arepino",
 		"outerColor": [238, 215, 181],
@@ -19,10 +19,76 @@
 			  ]
   },
   {
-		"name": "name",
+		"name": "Doubloon",
+		"leaderName": "Joya Schmith",
+	  	"style": "Arepino",
+		"outerColor": [1, 1, 1],
+		"innerColor": [180, 4, 4],
+
+		"startBias": ["Coast"],
+	  
+		"uniqueName": "The Speng",
+		"uniques": ["Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned","Comment [Units ending their turn on [Mountain] tiles take [50] damage]""],
+
+		"cities": ["no_name",
+			  ]
+  },
+  {
+		"name": "Darko",
 		"leaderName": "leader",
 	  	"style": "Arepino",
-		"outerColor": [238, 215, 181],
+		"outerColor": [1, 1, 1],
+		"innerColor": [119, 2, 23],
+
+		"startBias": ["Mountain"],
+	  
+		"uniqueName": "Arepa Cuisine",
+		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
+			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
+			"Expantionist"],
+
+		"cities": ["no_name",
+			  ]
+  },
+  {
+		"name": "Fanat",
+		"leaderName": "leader",
+	  	"style": "Arepino",
+		"outerColor": [1, 1, 1],
+		"innerColor": [119, 2, 23],
+
+		"startBias": ["Mountain"],
+	  
+		"uniqueName": "Arepa Cuisine",
+		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
+			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
+			"Expantionist"],
+
+		"cities": ["no_name",
+			  ]
+  },
+  {
+		"name": "HyperRed",
+		"leaderName": "leader",
+	  	"style": "Arepino",
+		"outerColor": [1, 1, 1],
+		"innerColor": [119, 2, 23],
+
+		"startBias": ["Mountain"],
+	  
+		"uniqueName": "Arepa Cuisine",
+		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
+			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
+			"Expantionist"],
+
+		"cities": ["no_name",
+			  ]
+  },
+  {
+		"name": "Clementine",
+		"leaderName": "leader",
+	  	"style": "Arepino",
+		"outerColor": [1, 1, 1],
 		"innerColor": [119, 2, 23],
 
 		"startBias": ["Mountain"],
@@ -39,7 +105,7 @@
 		"name": "name",
 		"leaderName": "leader",
 	  	"style": "Arepino",
-		"outerColor": [238, 215, 181],
+		"outerColor": [1, 1, 1],
 		"innerColor": [119, 2, 23],
 
 		"startBias": ["Mountain"],
@@ -56,7 +122,7 @@
 		"name": "name",
 		"leaderName": "leader",
 	  	"style": "Arepino",
-		"outerColor": [238, 215, 181],
+		"outerColor": [1, 1, 1],
 		"innerColor": [119, 2, 23],
 
 		"startBias": ["Mountain"],
@@ -73,7 +139,7 @@
 		"name": "name",
 		"leaderName": "leader",
 	  	"style": "Arepino",
-		"outerColor": [238, 215, 181],
+		"outerColor": [1, 1, 1],
 		"innerColor": [119, 2, 23],
 
 		"startBias": ["Mountain"],
@@ -90,7 +156,7 @@
 		"name": "name",
 		"leaderName": "leader",
 	  	"style": "Arepino",
-		"outerColor": [238, 215, 181],
+		"outerColor": [1, 1, 1],
 		"innerColor": [119, 2, 23],
 
 		"startBias": ["Mountain"],
@@ -107,7 +173,7 @@
 		"name": "name",
 		"leaderName": "leader",
 	  	"style": "Arepino",
-		"outerColor": [238, 215, 181],
+		"outerColor": [1, 1, 1],
 		"innerColor": [119, 2, 23],
 
 		"startBias": ["Mountain"],
@@ -124,7 +190,7 @@
 		"name": "name",
 		"leaderName": "leader",
 	  	"style": "Arepino",
-		"outerColor": [238, 215, 181],
+		"outerColor": [1, 1, 1],
 		"innerColor": [119, 2, 23],
 
 		"startBias": ["Mountain"],
@@ -141,7 +207,7 @@
 		"name": "name",
 		"leaderName": "leader",
 	  	"style": "Arepino",
-		"outerColor": [238, 215, 181],
+		"outerColor": [1, 1, 1],
 		"innerColor": [119, 2, 23],
 
 		"startBias": ["Mountain"],
@@ -158,7 +224,7 @@
 		"name": "name",
 		"leaderName": "leader",
 	  	"style": "Arepino",
-		"outerColor": [238, 215, 181],
+		"outerColor": [1, 1, 1],
 		"innerColor": [119, 2, 23],
 
 		"startBias": ["Mountain"],
@@ -175,75 +241,7 @@
 		"name": "name",
 		"leaderName": "leader",
 	  	"style": "Arepino",
-		"outerColor": [238, 215, 181],
-		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
-	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
-		"cities": ["no_name",
-			  ]
-  },
-  {
-		"name": "name",
-		"leaderName": "leader",
-	  	"style": "Arepino",
-		"outerColor": [238, 215, 181],
-		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
-	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
-		"cities": ["no_name",
-			  ]
-  },
-  {
-		"name": "name",
-		"leaderName": "leader",
-	  	"style": "Arepino",
-		"outerColor": [238, 215, 181],
-		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
-	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
-		"cities": ["no_name",
-			  ]
-  },
-  {
-		"name": "name",
-		"leaderName": "leader",
-	  	"style": "Arepino",
-		"outerColor": [238, 215, 181],
-		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
-	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
-		"cities": ["no_name",
-			  ]
-  },
-  {
-		"name": "name",
-		"leaderName": "leader",
-	  	"style": "Arepino",
-		"outerColor": [238, 215, 181],
+		"outerColor": [1, 1, 1],
 		"innerColor": [119, 2, 23],
 
 		"startBias": ["Mountain"],
