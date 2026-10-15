@@ -10,7 +10,8 @@
     "Unbuildable"],
 	},
 
-//City upgrade stuff
+/*
+	//City upgrade stuff
 	{
 		"name": "Upgrade Town to City",
 	  	"isNationalWonder": true,
@@ -81,5 +82,5 @@
 		"maintenance": 1,
 		"requiredTech": "Pottery",
 		"uniques": ["Only available <when religion is enabled>","Provides [2] [CityImportanceFactor]"]
-	},
+	},*/
 ]
