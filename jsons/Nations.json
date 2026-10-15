@@ -52,17 +52,15 @@
   },
   {
 		"name": "Fanat",
-		"leaderName": "leader",
+		"leaderName": "Davak",
 	  	"style": "Arepino",
 		"outerColor": [1, 1, 1],
-		"innerColor": [119, 2, 23],
+		"innerColor": [0, 98, 175],
 
 		"startBias": ["Mountain"],
 	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
+		"uniqueName": "Catish",
+		"uniques": ["..."],
 
 		"cities": ["no_name",
 			  ]
