@@ -13,9 +13,10 @@
         "Rebel units may spawn <when below [-13] [Happiness]>",
         "[-1] Sight <for [All] units> <before discovering [Radio]",
         "May enter foreign tiles without open borders", //should probably be limited to specific units
-        "[+3] HP when healing <when adjacent to a [Supplies Caravan] unit>",
+       // "[+3] HP when healing <when adjacent to a [Supplies Caravan] unit>",
         "[This unit] loses [1] movement <upon entering a [Fort] tile>",
 
+        /*
         //City,town basic mechanics
         "[+1000000]% Culture cost of natural border growth [in all cities]",
         "[+1000000]% Gold cost of acquiring tiles [in all cities]",
@@ -23,7 +24,7 @@
         "Each city founded increases Science cost of Technologies [100]% less than normal"
 
         //City uniques
-        //Town uniques
+        //Town uniques*/
     ],
     "civilopediaText": [
         {"text": "Global uniques are ruleset-wide modifiers that apply to all civilizations."}
