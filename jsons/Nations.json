@@ -1,6 +1,261 @@
 [
   //New
 
+  {
+		"name": "name",
+		"leaderName": "leader",
+	  	"style": "Arepino",
+		"outerColor": [238, 215, 181],
+		"innerColor": [119, 2, 23],
+
+		"startBias": ["Mountain"],
+	  
+		"uniqueName": "Arepa Cuisine",
+		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
+			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
+			"Expantionist"],
+
+		"cities": ["no_name",
+			  ]
+  },
+  {
+		"name": "name",
+		"leaderName": "leader",
+	  	"style": "Arepino",
+		"outerColor": [238, 215, 181],
+		"innerColor": [119, 2, 23],
+
+		"startBias": ["Mountain"],
+	  
+		"uniqueName": "Arepa Cuisine",
+		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
+			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
+			"Expantionist"],
+
+		"cities": ["no_name",
+			  ]
+  },
+  {
+		"name": "name",
+		"leaderName": "leader",
+	  	"style": "Arepino",
+		"outerColor": [238, 215, 181],
+		"innerColor": [119, 2, 23],
+
+		"startBias": ["Mountain"],
+	  
+		"uniqueName": "Arepa Cuisine",
+		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
+			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
+			"Expantionist"],
+
+		"cities": ["no_name",
+			  ]
+  },
+  {
+		"name": "name",
+		"leaderName": "leader",
+	  	"style": "Arepino",
+		"outerColor": [238, 215, 181],
+		"innerColor": [119, 2, 23],
+
+		"startBias": ["Mountain"],
+	  
+		"uniqueName": "Arepa Cuisine",
+		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
+			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
+			"Expantionist"],
+
+		"cities": ["no_name",
+			  ]
+  },
+  {
+		"name": "name",
+		"leaderName": "leader",
+	  	"style": "Arepino",
+		"outerColor": [238, 215, 181],
+		"innerColor": [119, 2, 23],
+
+		"startBias": ["Mountain"],
+	  
+		"uniqueName": "Arepa Cuisine",
+		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
+			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
+			"Expantionist"],
+
+		"cities": ["no_name",
+			  ]
+  },
+  {
+		"name": "name",
+		"leaderName": "leader",
+	  	"style": "Arepino",
+		"outerColor": [238, 215, 181],
+		"innerColor": [119, 2, 23],
+
+		"startBias": ["Mountain"],
+	  
+		"uniqueName": "Arepa Cuisine",
+		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
+			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
+			"Expantionist"],
+
+		"cities": ["no_name",
+			  ]
+  },
+  {
+		"name": "name",
+		"leaderName": "leader",
+	  	"style": "Arepino",
+		"outerColor": [238, 215, 181],
+		"innerColor": [119, 2, 23],
+
+		"startBias": ["Mountain"],
+	  
+		"uniqueName": "Arepa Cuisine",
+		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
+			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
+			"Expantionist"],
+
+		"cities": ["no_name",
+			  ]
+  },
+  {
+		"name": "name",
+		"leaderName": "leader",
+	  	"style": "Arepino",
+		"outerColor": [238, 215, 181],
+		"innerColor": [119, 2, 23],
+
+		"startBias": ["Mountain"],
+	  
+		"uniqueName": "Arepa Cuisine",
+		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
+			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
+			"Expantionist"],
+
+		"cities": ["no_name",
+			  ]
+  },
+  {
+		"name": "name",
+		"leaderName": "leader",
+	  	"style": "Arepino",
+		"outerColor": [238, 215, 181],
+		"innerColor": [119, 2, 23],
+
+		"startBias": ["Mountain"],
+	  
+		"uniqueName": "Arepa Cuisine",
+		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
+			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
+			"Expantionist"],
+
+		"cities": ["no_name",
+			  ]
+  },
+  {
+		"name": "name",
+		"leaderName": "leader",
+	  	"style": "Arepino",
+		"outerColor": [238, 215, 181],
+		"innerColor": [119, 2, 23],
+
+		"startBias": ["Mountain"],
+	  
+		"uniqueName": "Arepa Cuisine",
+		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
+			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
+			"Expantionist"],
+
+		"cities": ["no_name",
+			  ]
+  },
+  {
+		"name": "name",
+		"leaderName": "leader",
+	  	"style": "Arepino",
+		"outerColor": [238, 215, 181],
+		"innerColor": [119, 2, 23],
+
+		"startBias": ["Mountain"],
+	  
+		"uniqueName": "Arepa Cuisine",
+		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
+			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
+			"Expantionist"],
+
+		"cities": ["no_name",
+			  ]
+  },
+  {
+		"name": "name",
+		"leaderName": "leader",
+	  	"style": "Arepino",
+		"outerColor": [238, 215, 181],
+		"innerColor": [119, 2, 23],
+
+		"startBias": ["Mountain"],
+	  
+		"uniqueName": "Arepa Cuisine",
+		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
+			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
+			"Expantionist"],
+
+		"cities": ["no_name",
+			  ]
+  },
+  {
+		"name": "name",
+		"leaderName": "leader",
+	  	"style": "Arepino",
+		"outerColor": [238, 215, 181],
+		"innerColor": [119, 2, 23],
+
+		"startBias": ["Mountain"],
+	  
+		"uniqueName": "Arepa Cuisine",
+		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
+			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
+			"Expantionist"],
+
+		"cities": ["no_name",
+			  ]
+  },
+  {
+		"name": "name",
+		"leaderName": "leader",
+	  	"style": "Arepino",
+		"outerColor": [238, 215, 181],
+		"innerColor": [119, 2, 23],
+
+		"startBias": ["Mountain"],
+	  
+		"uniqueName": "Arepa Cuisine",
+		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
+			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
+			"Expantionist"],
+
+		"cities": ["no_name",
+			  ]
+  },
+  {
+		"name": "name",
+		"leaderName": "leader",
+	  	"style": "Arepino",
+		"outerColor": [238, 215, 181],
+		"innerColor": [119, 2, 23],
+
+		"startBias": ["Mountain"],
+	  
+		"uniqueName": "Arepa Cuisine",
+		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
+			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
+			"Expantionist"],
+
+		"cities": ["no_name",
+			  ]
+  },
 	//Base
 	{
 		"name": "Barbarians",
