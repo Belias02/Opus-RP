@@ -11,7 +11,7 @@
 
         //new basic stuff
         "Rebel units may spawn <when below [-13] [Happiness]>",
-        "[-1] Sight <for [All] units> <before discovering [Radio]",
+        "[-1] Sight <for [All] units> <before discovering [Radio]>",
         "May enter foreign tiles without open borders", //should probably be limited to specific units
        // "[+3] HP when healing <when adjacent to a [Supplies Caravan] unit>",
         "[This unit] loses [1] movement <upon entering a [Fort] tile>",
