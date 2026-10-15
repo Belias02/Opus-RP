@@ -1,5 +1,7 @@
 [
-{
+
+	/* City upgrade stuff
+	{
   "name": "CityImportanceFactor",
   "resourceType": "Strategic",
   "uniques": ["Excluded from map editor","City-level resource"],
@@ -28,5 +30,5 @@
 				"text": "Is used to count all major cities you own that aren't puppets or in resistance, used for some in game calculations."
 			},
 		] 
-}
+}*/
 ]
