@@ -28,7 +28,7 @@
 		"startBias": ["Coast"],
 	  
 		"uniqueName": "The Speng",
-		"uniques": ["Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned","Comment [Units ending their turn on [Mountain] tiles take [50] damage]""],
+		"uniques": ["Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned","Comment [Units ending their turn on [Mountain] tiles take [50] damage]"],
 
 		"cities": ["no_name",
 			  ]
@@ -47,8 +47,7 @@
 			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
 			"Expantionist"],
 
-		"cities": ["no_name",
-			  ]
+		"cities": ["no_name",]
   },
   {
 		"name": "Fanat",
