@@ -60,7 +60,8 @@
 				"Cannot be built on [{non-[your]} {non-[Unowned]}] tiles <hidden from users>", //Not in other players tiles
 				"Comment [Cannot be built in the territory of another player]",
 				"Gain control over [Unowned] tiles in a [0]-tile radius",
-				"Land Control"
+				"Land Control",
+				"Obsolete with [Construction]"
 		],
 	},
 	//Tier I
@@ -76,7 +77,9 @@
 				"Comment [Cannot be built in the territory of another player]",
 				"Gain control over [Unowned] tiles in a [1]-tile radius",
 				"Land Control",
-				"TIER I Fort"
+				"TIER I Fort",
+				"Obsolete with [Guilds]",
+				"Obsolete with [Physics]"
 		],
 	},
 	{
@@ -92,13 +95,15 @@
 				"Comment [Cannot be built in the territory of another player]",
 				"Gain control over [Unowned] tiles in a [1]-tile radius",
 				"Land Control",
-				"TIER I Fort"
+				"TIER I Fort",
+				"Obsolete with [Guilds]",
+				"Obsolete with [Physics]"
 		],
 	},
 	//Tier II
 	{
 		"name": "Stone Fort",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow","Hill"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Hill"],
 		"turnsToBuild": 7,
 		"requiredTech": "Construction"
 		"uniques": [
@@ -110,7 +115,8 @@
 				"Gain control over [Unowned] tiles in a [1]-tile radius",
 				"Land Control",
 				"TIER II Fort",
-				"TIER I Fort"
+				"TIER I Fort",
+				"Obsolete with [Physics]"
 		],
 	},
 	{
@@ -144,7 +150,8 @@
 				"Land Control",
 				"TIER III Fort",
 				"TIER II Fort",
-				"TIER I Fort"
+				"TIER I Fort",
+				"Obsolete with [Physics]"
 		],
 	},
 	{
