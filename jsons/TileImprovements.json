@@ -110,7 +110,7 @@
 				"Gain control over [Unowned] tiles in a [1]-tile radius",
 				"Land Control",
 				"TIER II Fort",
-				"TIER I Fort <hidden from users>"
+				"TIER I Fort"
 		],
 	},
 	{
@@ -126,7 +126,8 @@
 				"Comment [Cannot be built in the territory of another player]",
 				"Gain control over [Unowned] tiles in a [0]-tile radius",
 				"Land Control",
-				"TIER II Fort"
+				"TIER II Fort",
+				"TIER I Fort"
 		],
 	},
 	//Tier III
@@ -141,7 +142,9 @@
 				"Costs [3] [Gold] per turn",
 				"Gain control over [Unowned] tiles in a [1]-tile radius",
 				"Land Control",
-				"TIER III Fort"
+				"TIER III Fort",
+				"TIER II Fort",
+				"TIER I Fort"
 		],
 	},
 	{
@@ -158,7 +161,9 @@
 				"Comment [Cannot be built in the territory of another player]",
 				"Gain control over [Unowned] tiles in a [1]-tile radius",
 				"Land Control",
-				"TIER III Fort"
+				"TIER III Fort",
+				"TIER II Fort",
+				"TIER I Fort"
 		],
 	},
 	//Tier IV
@@ -173,7 +178,10 @@
 				"Costs [2] [Gold] per turn",
 				"Gain control over [Unowned] tiles in a [1]-tile radius",
 				"Land Control",
-				"TIER IV Fort"
+				"TIER IV Fort",
+				"TIER III Fort",
+				"TIER II Fort",
+				"TIER I Fort"
 		],
 	},
 	{
@@ -189,7 +197,10 @@
 				"Costs [4] [Gold] per turn",
 				"Gain control over [non-[TIER II Fort]] tiles in a [1]-tile radius",
 				"Land Control",
-				"TIER IV Fort"
+				"TIER IV Fort",
+				"TIER III Fort",
+				"TIER II Fort",
+				"TIER I Fort"
 		],
 	},
 ]
