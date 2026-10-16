@@ -72,7 +72,7 @@
 		"cost": 106,
 		"requiredTech": "Agriculture",
 		"uniques": ["Founds a new city <by consuming this unit>", "Excess Food converted to Production when under construction",
-			"Requires at least [3] population","[-1] [Population] <upon constructing [Settler] [in this city]>"],
+			"Requires at least [3] population"],
 		"hurryCostModifier": 20
 	},
 	{
