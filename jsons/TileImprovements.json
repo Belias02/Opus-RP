@@ -30,6 +30,7 @@
 				"Comment [Can be built on all unowned tiles next to your fortifications to take it over.]",
 				"Can only be built on [Unowned] tiles <hidden from users>",
 				"Must be next to [{your} {Land Control}] <hidden from users>",
+				"Takeover"
 		],
 	},
 	{
@@ -45,7 +46,8 @@
 				"Unavailable <in tiles adjacent to [{non-[your]} {TIER I Fort}] tiles> <in tiles not adjacent to [{your} {TIER II Fort}] tiles> <hidden from users>",
 				"Unavailable <in tiles adjacent to [{non-[your]} {TIER II Fort}] tiles> <in tiles not adjacent to [{your} {TIER III Fort}] tiles> <hidden from users>",
 				"Unavailable <in tiles adjacent to [{non-[your]} {TIER III Fort}] tiles> <in tiles not adjacent to [{your} {TIER IV Fort}] tiles> <hidden from users>",
-				"Unavailable <in tiles adjacent to [{non-[your]} {TIER IV Fort}] tiles> <in tiles not adjacent to [{your} {TIER V Fort}] tiles> <hidden from users>",´
+				"Unavailable <in tiles adjacent to [{non-[your]} {TIER IV Fort}] tiles> <in tiles not adjacent to [{your} {TIER V Fort}] tiles> <hidden from users>",
+				"Takeover"
 		],
 	},
 	//Tier 0,
