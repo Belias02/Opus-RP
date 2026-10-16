@@ -29,7 +29,7 @@
 				"Gain control over [all] tiles in a [0]-tile radius",
 				"Comment [Can be built on all unowned tiles next to your fortifications to take it over.]",
 				"Can only be built on [Unowned] tiles <hidden from users>",
-				"Must be next to [{your} {Land Control}] <hidden from users>",
+				//"Must be next to [{your} {Land Control}] <hidden from users>",
 				"Takeover"
 		],
 	},
