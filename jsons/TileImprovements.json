@@ -29,7 +29,7 @@
 				"Gain control over [all] tiles in a [0]-tile radius",
 				"Comment [Can be built on all unowned tiles next to your fortifications to take it over.]",
 				"Can only be built on [Unowned] tiles <hidden from users>",
-				//"Must be next to [{your} {Land Control}] <hidden from users>",
+				"Only available <in tiles adjacent to [{your} {Land Control}] tiles> <hidden from users>",
 				"Takeover"
 		],
 	},
@@ -41,7 +41,7 @@
 				"Gain control over [all] tiles in a [0]-tile radius",
 				"Comment [Can be built on someone elses Land to occupy the tile and take it over. Requirements:\n-You need to have a fortification in an adjacent tile\nIf the other player also does, yours needs to be higher tier]",
 				"Can only be built on [{non-[your]} {non-[Unowned]} {non-[TIER I Fort]}] tiles <hidden from users>", //Land someone else owns
-				//"Must be next to [{your} {Land Control}] <hidden from users>",
+				"Only available <in tiles adjacent to [{your} {Land Control}] tiles> <hidden from users>",
 				"Unavailable <in tiles adjacent to [{non-[your]} {Land Control}] tiles> <in tiles not adjacent to [{your} {TIER I Fort}] tiles> <hidden from users>",
 				"Unavailable <in tiles adjacent to [{non-[your]} {TIER I Fort}] tiles> <in tiles not adjacent to [{your} {TIER II Fort}] tiles> <hidden from users>",
 				"Unavailable <in tiles adjacent to [{non-[your]} {TIER II Fort}] tiles> <in tiles not adjacent to [{your} {TIER III Fort}] tiles> <hidden from users>",
