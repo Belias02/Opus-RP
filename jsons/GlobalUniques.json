@@ -15,7 +15,8 @@
         "May enter foreign tiles without open borders", //should probably be limited to specific units
        // "[+3] HP when healing <when adjacent to a [Supplies Caravan] unit>",
         "[This unit] loses [1] movement <upon entering a [Fort] tile>",
-
+        "[-1] [Population] <upon constructing [Settler] [in this city]>"
+        
         /*
         //City,town basic mechanics
         "[+1000000]% Culture cost of natural border growth [in all cities]",
