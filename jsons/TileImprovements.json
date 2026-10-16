@@ -86,7 +86,7 @@
 		"name": "Wooden Fort",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
 		"turnsToBuild": 7,
-		"requiredTech": "Mining"
+		"techRequired": "Mining"
 		"uniques": [
       			"Gives a defensive bonus of [15]%",
 				"Costs [1] [Gold] per turn",
@@ -105,7 +105,7 @@
 		"name": "Stone Fort",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Hill"],
 		"turnsToBuild": 7,
-		"requiredTech": "Construction"
+		"techRequired": "Construction"
 		"uniques": [
       			"Gives a defensive bonus of [25]%",
 				"Costs [2] [Gold] per turn",
@@ -123,7 +123,7 @@
 		"name": "Ringworks",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow","Hill"],
 		"turnsToBuild": 5,
-		"requiredTech": "Guilds"
+		"techRequired": "Guilds"
 		"uniques": [
       			"Gives a defensive bonus of [20]%",
 				"Costs [1] [Gold] per turn",
@@ -142,7 +142,7 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow","Hill"],
 		"turnsToBuild": 12,
 		"production": 1,
-		"requiredTech": "Engineering"
+		"techRequired": "Engineering"
 		"uniques": [
       			"Gives a defensive bonus of [40]%",
 				"Costs [3] [Gold] per turn",
@@ -158,7 +158,7 @@
 		"name": "Motte and Bailey",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow","Hill"],
 		"turnsToBuild": 7,
-		"requiredTech": "Guilds"
+		"techRequired": "Guilds"
 		"uniques": [
 				"Only available <after discovering [Engineering]>",
       			"Gives a defensive bonus of [30]%",
@@ -179,7 +179,7 @@
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow","Hill"],
 		"turnsToBuild": 10,
 		"production": 1,
-		"requiredTech": "Physics"
+		"techRequired": "Physics"
 		"uniques": [
       			"Gives a defensive bonus of [40]%",
 				"Costs [2] [Gold] per turn",
@@ -197,7 +197,7 @@
 		"turnsToBuild": 14,
 		"production": 1,
 		"culture": 1,
-		"requiredTech": "Physics"
+		"techRequired": "Physics"
 		"uniques": [
 				"Only available <after discovering [Guilds]>",
       			"Gives a defensive bonus of [50]%",
