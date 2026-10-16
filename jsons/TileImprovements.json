@@ -134,4 +134,35 @@
 				"TIER III Fort"
 		],
 	},
+	//Tier IV
+	{
+		"name": "Stone Keep",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow","Hill"],
+		"turnsToBuild": 10,
+		"production": 1,
+		"requiredTech": "Physics"
+		"uniques": [
+      			"Gives a defensive bonus of [40]%",
+				"Costs [2] [Gold] per turn",
+				"Gain control over [Unowned] tiles in a [1]-tile radius",
+				"Land Control",
+				"TIER IV Fort"
+		],
+	},
+	{
+		"name": "Castle",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow","Hill"],
+		"turnsToBuild": 14,
+		"production": 1,
+		"culture": 1,
+		"requiredTech": "Physics"
+		"uniques": [
+				"Only available <after discovering [Guilds]>",
+      			"Gives a defensive bonus of [60]%",
+				"Costs [4] [Gold] per turn",
+				"Gain control over [non-[TIER II Fort]] tiles in a [1]-tile radius",
+				"Land Control",
+				"TIER IV Fort"
+		],
+	},
 ]
