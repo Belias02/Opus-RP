@@ -30,6 +30,9 @@
 				"Comment [Can be built on all unowned tiles next to your fortifications to take it over.]",
 				"Can only be built on [Unowned] tiles <hidden from users>",
 				"Only available <in tiles adjacent to [{your} {Land Control}] tiles> <hidden from users>",
+				"Does not need removal of [Forest] <hidden from users>",
+				"Does not need removal of [Marsh] <hidden from users>",
+				"Does not need removal of [Jungle] <hidden from users>",
 				"Takeover"
 		],
 	},
@@ -47,6 +50,9 @@
 				"Unavailable <in tiles adjacent to [{non-[your]} {TIER II Fort}] tiles> <in tiles not adjacent to [{your} {TIER III Fort}] tiles> <hidden from users>",
 				"Unavailable <in tiles adjacent to [{non-[your]} {TIER III Fort}] tiles> <in tiles not adjacent to [{your} {TIER IV Fort}] tiles> <hidden from users>",
 				"Unavailable <in tiles adjacent to [{non-[your]} {TIER IV Fort}] tiles> <in tiles not adjacent to [{your} {TIER V Fort}] tiles> <hidden from users>",
+				"Does not need removal of [Forest] <hidden from users>",
+				"Does not need removal of [Marsh] <hidden from users>",
+				"Does not need removal of [Jungle] <hidden from users>",
 				"Takeover"
 		],
 	},
