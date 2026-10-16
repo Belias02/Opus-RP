@@ -102,7 +102,7 @@
 	},
 	//Tier II
 	{
-		"name": "Stone Fort",
+		"name": "Fort",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Hill"],
 		"turnsToBuild": 7,
 		"techRequired": "Construction"
