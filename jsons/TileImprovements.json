@@ -45,7 +45,7 @@
 				"Unavailable <in tiles adjacent to [{non-[your]} {TIER I Fort}] tiles> <in tiles not adjacent to [{your} {TIER II Fort}] tiles> <hidden from users>",
 				"Unavailable <in tiles adjacent to [{non-[your]} {TIER II Fort}] tiles> <in tiles not adjacent to [{your} {TIER III Fort}] tiles> <hidden from users>",
 				"Unavailable <in tiles adjacent to [{non-[your]} {TIER III Fort}] tiles> <in tiles not adjacent to [{your} {TIER IV Fort}] tiles> <hidden from users>",
-				//"Unavailable <in tiles adjacent to [{non-[your]} {TIER IV Fort}] tiles> <in tiles not adjacent to [{your} {TIER V Fort}] tiles> <hidden from users>",
+				"Unavailable <in tiles adjacent to [{non-[your]} {TIER IV Fort}] tiles> <in tiles not adjacent to [{your} {TIER V Fort}] tiles> <hidden from users>",´
 		],
 	},
 	//Tier 0,
@@ -193,14 +193,35 @@
 		"requiredTech": "Physics"
 		"uniques": [
 				"Only available <after discovering [Guilds]>",
-      			"Gives a defensive bonus of [60]%",
+      			"Gives a defensive bonus of [50]%",
+				"Adjacent enemy units ending their turn take [10] damage",
 				"Costs [4] [Gold] per turn",
 				"Gain control over [non-[TIER II Fort]] tiles in a [1]-tile radius",
 				"Land Control",
 				"TIER IV Fort",
 				"TIER III Fort",
 				"TIER II Fort",
-				"TIER I Fort"
+				"TIER I Fort",
+            	"Will not be replaced by automated units"
 		],
+	},
+	{
+		"name": "Citadel",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+				"Great Improvement",
+				"Gives a defensive bonus of [100]%",
+				"Adjacent enemy units ending their turn take [30] damage",
+				"Can be built just outside your borders",
+				"Gain control over [non-[TIER II Fort]] tiles in a [1]-tile radius",
+				"Removes removable features when built",
+				"Land Control",
+				"TIER V Fort",
+				"TIER IV Fort",
+				"TIER III Fort",
+				"TIER II Fort",
+				"TIER I Fort",
+            	"Will not be replaced by automated units"
+		]
 	},
 ]
