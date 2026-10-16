@@ -19,4 +19,55 @@
 			"Great Improvement",
 			    "Pillaging this improvement yields approximately [+200 Gold]"]
 	},
+
+	//Forts and Land Control
+	
+	//Tier 0,
+	{
+		"name": "Encampment",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle"],
+		"turnsToBuild": 4,
+		"uniques": [
+      			"Gives a defensive bonus of [5]%",
+				"Costs [1] [Gold] per turn",
+				"Can be built just outside your borders",
+				"Cannot be built on [{non-[your]} {non-[Unowned]}] tiles <hidden from users>", //Not in other players tiles
+				"Comment [Cannot be built in the territory of another player]",
+				"Land Control"
+		],
+	},
+	//Tier I
+	{
+		"name": "Wooden Fort",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
+		"turnsToBuild": 7,
+		"requiredTech": "Mining"
+		"uniques": [
+      			"Gives a defensive bonus of [15]%",
+				"Costs [1] [Gold] per turn",
+				"Can be built just outside your borders",
+				"Cannot be built on [{non-[your]} {non-[Unowned]}] tiles <hidden from users>", //Not in other players tiles
+				"Comment [Cannot be built in the territory of another player]",
+				"Gain control over [Unowned] tiles in a [1]-tile radius",
+				"Land Control",
+				"TIER I Fort"
+		],
+	},
+	{
+		"name": "Hillfort",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"turnsToBuild": 7,
+		"uniques": [
+      			"Gives a defensive bonus of [15]%",
+				"Costs [1] [Gold] per turn",
+				"Can be built just outside your borders",
+				"Cannot be built on [{non-[your]} {non-[Unowned]}] tiles <hidden from users>", //Not in other players tiles
+				"Comment [Cannot be built in the territory of another player]",
+				"Gain control over [Unowned] tiles in a [1]-tile radius",
+				"Land Control",
+				"TIER I Fort"
+		],
+	},
+
+	
 ]
