@@ -26,17 +26,33 @@
 	{
 		"name": "Encampment",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle"],
-		"turnsToBuild": 4,
+		"turnsToBuild": 3,
 		"uniques": [
       			"Gives a defensive bonus of [5]%",
 				"Costs [1] [Gold] per turn",
 				"Can be built just outside your borders",
 				"Cannot be built on [{non-[your]} {non-[Unowned]}] tiles <hidden from users>", //Not in other players tiles
 				"Comment [Cannot be built in the territory of another player]",
+				"Gain control over [Unowned] tiles in a [0]-tile radius",
 				"Land Control"
 		],
 	},
 	//Tier I
+	{
+		"name": "Hillfort",
+		"terrainsCanBeBuiltOn": ["Hill"],
+		"turnsToBuild": 6,
+		"uniques": [
+      			"Gives a defensive bonus of [15]%",
+				"Costs [1] [Gold] per turn",
+				"Can be built just outside your borders",
+				"Cannot be built on [{non-[your]} {non-[Unowned]}] tiles <hidden from users>", //Not in other players tiles
+				"Comment [Cannot be built in the territory of another player]",
+				"Gain control over [Unowned] tiles in a [1]-tile radius",
+				"Land Control",
+				"TIER I Fort"
+		],
+	},
 	{
 		"name": "Wooden Fort",
 		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
@@ -53,21 +69,69 @@
 				"TIER I Fort"
 		],
 	},
+	//Tier II
 	{
-		"name": "Hillfort",
-		"terrainsCanBeBuiltOn": ["Hill"],
+		"name": "Stone Fort",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow","Hill"],
 		"turnsToBuild": 7,
+		"requiredTech": "Construction"
 		"uniques": [
-      			"Gives a defensive bonus of [15]%",
-				"Costs [1] [Gold] per turn",
+      			"Gives a defensive bonus of [25]%",
+				"Costs [2] [Gold] per turn",
 				"Can be built just outside your borders",
 				"Cannot be built on [{non-[your]} {non-[Unowned]}] tiles <hidden from users>", //Not in other players tiles
 				"Comment [Cannot be built in the territory of another player]",
 				"Gain control over [Unowned] tiles in a [1]-tile radius",
 				"Land Control",
-				"TIER I Fort"
+				"TIER II Fort"
 		],
 	},
-
-	
+	{
+		"name": "Ringworks",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow","Hill"],
+		"turnsToBuild": 5,
+		"requiredTech": "Guilds"
+		"uniques": [
+      			"Gives a defensive bonus of [20]%",
+				"Costs [1] [Gold] per turn",
+				"Can be built just outside your borders",
+				"Cannot be built on [{non-[your]} {non-[Unowned]}] tiles <hidden from users>", //Not in other players tiles
+				"Comment [Cannot be built in the territory of another player]",
+				"Gain control over [Unowned] tiles in a [0]-tile radius",
+				"Land Control",
+				"TIER II Fort"
+		],
+	},
+	//Tier III
+	{
+		"name": "Fortress",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow","Hill"],
+		"turnsToBuild": 12,
+		"production": 1,
+		"requiredTech": "Engineering"
+		"uniques": [
+      			"Gives a defensive bonus of [40]%",
+				"Costs [3] [Gold] per turn",
+				"Gain control over [Unowned] tiles in a [1]-tile radius",
+				"Land Control",
+				"TIER III Fort"
+		],
+	},
+	{
+		"name": "Motte and Bailey",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow","Hill"],
+		"turnsToBuild": 7,
+		"requiredTech": "Guilds"
+		"uniques": [
+				"Only available <after discovering [Engineering]>",
+      			"Gives a defensive bonus of [30]%",
+				"Costs [2] [Gold] per turn",
+				"Can be built just outside your borders",
+				"Cannot be built on [{non-[your]} {non-[Unowned]}] tiles <hidden from users>", //Not in other players tiles
+				"Comment [Cannot be built in the territory of another player]",
+				"Gain control over [Unowned] tiles in a [1]-tile radius",
+				"Land Control",
+				"TIER III Fort"
+		],
+	},
 ]
