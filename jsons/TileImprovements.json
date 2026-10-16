@@ -20,8 +20,34 @@
 			    "Pillaging this improvement yields approximately [+200 Gold]"]
 	},
 
-	//Forts and Land Control
-	
+	//Forts and Land Control Remove [improvementFilter] improvements from this tile,
+	{
+		"name": "Land Takeover",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+				"Can be built just outside your borders",
+				"Gain control over [all] tiles in a [0]-tile radius",
+				"Comment [Can be built on all unowned tiles next to your fortifications to take it over.]",
+				"Can only be built on [Unowned] tiles <hidden from users>",
+				"Must be next to [{your} {Land Control}] <hidden from users>",
+		],
+	},
+	{
+		"name": "Land Occupation",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+				"Can be built just outside your borders",
+				"Gain control over [all] tiles in a [0]-tile radius",
+				"Comment [Can be built on someone elses Land to occupy the tile and take it over. Requirements:\n-You need to have a fortification in an adjacent tile\nIf the other player also does, yours needs to be higher tier]",
+				"Can only be built on [{non-[your]} {non-[Unowned]} {non-[TIER I Fort]}] tiles <hidden from users>", //Land someone else owns
+				"Must be next to [{your} {Land Control}] <hidden from users>",
+				"Unavailable <in tiles adjacent to [{non-[your]} {Land Control}] tiles> <in tiles not adjacent to [{your} {TIER I Fort}] tiles> <hidden from users>",
+				"Unavailable <in tiles adjacent to [{non-[your]} {TIER I Fort}] tiles> <in tiles not adjacent to [{your} {TIER II Fort}] tiles> <hidden from users>",
+				"Unavailable <in tiles adjacent to [{non-[your]} {TIER II Fort}] tiles> <in tiles not adjacent to [{your} {TIER III Fort}] tiles> <hidden from users>",
+				"Unavailable <in tiles adjacent to [{non-[your]} {TIER III Fort}] tiles> <in tiles not adjacent to [{your} {TIER IV Fort}] tiles> <hidden from users>",
+				//"Unavailable <in tiles adjacent to [{non-[your]} {TIER IV Fort}] tiles> <in tiles not adjacent to [{your} {TIER V Fort}] tiles> <hidden from users>",
+		],
+	},
 	//Tier 0,
 	{
 		"name": "Encampment",
@@ -83,7 +109,8 @@
 				"Comment [Cannot be built in the territory of another player]",
 				"Gain control over [Unowned] tiles in a [1]-tile radius",
 				"Land Control",
-				"TIER II Fort"
+				"TIER II Fort",
+				"TIER I Fort <hidden from users>"
 		],
 	},
 	{
