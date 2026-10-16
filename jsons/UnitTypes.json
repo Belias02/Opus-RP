@@ -9,8 +9,8 @@
         "movementType": "Land"
         "uniques": [
             "May enter foreign tiles without open borders",
-            "Can instantly construct a [Land Takeover] improvement <in [Unowned] tiles> <in tiles adjacent to [your] tiles>",
-            "Can instantly construct a [Land Occupation] improvement <in [{non-[Unowned]} {non-[your]}] tiles> <in tiles adjacent to [your] tiles>",
+            "Can instantly construct a [Land Takeover] improvement <in [Unowned] tiles> <in tiles adjacent to [your] tiles> <for all movement>",
+            "Can instantly construct a [Land Occupation] improvement <in [{non-[Unowned]} {non-[your]}] tiles> <in tiles adjacent to [your] tiles> <for all movement>",
             "Remove [Takeover] improvements from this tile <upon ending a turn in a [Takeover] tile>"
                 ]
     },
@@ -19,8 +19,8 @@
         "movementType": "Land"
         "uniques": [
             "May enter foreign tiles without open borders",
-            "Can instantly construct a [Land Takeover] improvement <in [Unowned] tiles> <in tiles adjacent to [your] tiles>",
-            "Can instantly construct a [Land Occupation] improvement <in [{non-[Unowned]} {non-[your]}] tiles> <in tiles adjacent to [your] tiles>",
+            "Can instantly construct a [Land Takeover] improvement <in [Unowned] tiles> <in tiles adjacent to [your] tiles> <for all movement>",
+            "Can instantly construct a [Land Occupation] improvement <in [{non-[Unowned]} {non-[your]}] tiles> <in tiles adjacent to [your] tiles> <for all movement>",
             "Remove [Takeover] improvements from this tile <upon ending a turn in a [Takeover] tile>"
                 ]
     },
@@ -29,8 +29,8 @@
         "movementType": "Land"
         "uniques": [
             "May enter foreign tiles without open borders",
-            "Can instantly construct a [Land Takeover] improvement <in [Unowned] tiles> <in tiles adjacent to [your] tiles>",
-            "Can instantly construct a [Land Occupation] improvement <in [{non-[Unowned]} {non-[your]}] tiles> <in tiles adjacent to [your] tiles>",
+            "Can instantly construct a [Land Takeover] improvement <in [Unowned] tiles> <in tiles adjacent to [your] tiles> <for all movement>",
+            "Can instantly construct a [Land Occupation] improvement <in [{non-[Unowned]} {non-[your]}] tiles> <in tiles adjacent to [your] tiles> <for all movement>",
             "Remove [Takeover] improvements from this tile <upon ending a turn in a [Takeover] tile>"
                 ]
     },
@@ -39,8 +39,8 @@
         "movementType": "Land"
         "uniques": [
             "May enter foreign tiles without open borders",
-            "Can instantly construct a [Land Takeover] improvement <in [Unowned] tiles> <in tiles adjacent to [your] tiles>",
-            "Can instantly construct a [Land Occupation] improvement <in [{non-[Unowned]} {non-[your]}] tiles> <in tiles adjacent to [your] tiles>",
+            "Can instantly construct a [Land Takeover] improvement <in [Unowned] tiles> <in tiles adjacent to [your] tiles> <for all movement>",
+            "Can instantly construct a [Land Occupation] improvement <in [{non-[Unowned]} {non-[your]}] tiles> <in tiles adjacent to [your] tiles> <for all movement>",
             "Remove [Takeover] improvements from this tile <upon ending a turn in a [Takeover] tile>"
                 ]
     },
@@ -49,8 +49,8 @@
         "movementType": "Land"
         "uniques": [
             "May enter foreign tiles without open borders",
-            "Can instantly construct a [Land Takeover] improvement <in [Unowned] tiles> <in tiles adjacent to [your] tiles>",
-            "Can instantly construct a [Land Occupation] improvement <in [{non-[Unowned]} {non-[your]}] tiles> <in tiles adjacent to [your] tiles>",
+            "Can instantly construct a [Land Takeover] improvement <in [Unowned] tiles> <in tiles adjacent to [your] tiles> <for all movement>",
+            "Can instantly construct a [Land Occupation] improvement <in [{non-[Unowned]} {non-[your]}] tiles> <in tiles adjacent to [your] tiles> <for all movement>",
             "Remove [Takeover] improvements from this tile <upon ending a turn in a [Takeover] tile>"
                 ]
     },
@@ -59,8 +59,8 @@
         "movementType": "Land"
         "uniques": [
             "May enter foreign tiles without open borders",
-            "Can instantly construct a [Land Takeover] improvement <in [Unowned] tiles> <in tiles adjacent to [your] tiles>",
-            "Can instantly construct a [Land Occupation] improvement <in [{non-[Unowned]} {non-[your]}] tiles> <in tiles adjacent to [your] tiles>",
+            "Can instantly construct a [Land Takeover] improvement <in [Unowned] tiles> <in tiles adjacent to [your] tiles> <for all movement>",
+            "Can instantly construct a [Land Occupation] improvement <in [{non-[Unowned]} {non-[your]}] tiles> <in tiles adjacent to [your] tiles> <for all movement>",
             "Remove [Takeover] improvements from this tile <upon ending a turn in a [Takeover] tile>"
                 ]
     },
