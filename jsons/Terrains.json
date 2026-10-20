@@ -1,0 +1,449 @@
+[
+	{
+		"name": "Lakes",
+		"type": "Water",
+		"food": 2,
+		"gold": 1,
+		"RGB": [0, 171, 169],
+		"uniques": ["Fresh water", "Fresh Water Source",
+					"Considered [Food] when determining start locations",
+					"Considered [Desirable] when determining start locations"],
+        "civilopediaText": [
+            {"text": "Lakes provide fresh water to adjacent tiles, allowing farming where it would otherwise not be possible (similar to Rivers and Oases)."},
+            {"text": "Rivers", "link":"Terrain/River"},
+            {"text": "Oasis", "link":"Terrain/Oasis"},
+            {"text": "Farm", "link":"Improvement/Farm"},
+            {"text": "Civil Service", "link":"Technology/Civil Service"},
+            {"text": "Fertilizer", "link":"Technology/Fertilizer"}
+        ]
+	},
+	{
+		"name": "Snow",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [230, 238, 255],
+		"uniques": [
+            "Occurs at temperature between [-1] and [-0.9] and humidity between [0] and [1]",
+            "Occurs at temperature between [-0.9] and [-0.8] and humidity between [0] and [0.8]",
+            "Occurs at temperature between [-0.8] and [-0.7] and humidity between [0] and [0.6]",
+            "Occurs at temperature between [-0.7] and [-0.6] and humidity between [0] and [0.4]",
+            "Occurs at temperature between [-0.6] and [-0.5] and humidity between [0] and [0.2]",
+            "Always Fertility [-1] for Map Generation",
+            "Considered [Undesirable] when determining start locations",
+            "Becomes [Magma Ravine] when adjacent to [Volcano]",
+            "Becomes [Tundra] when adjacent to [River]",
+            "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
+            "Never receives any resources <in [Hill] tiles>"]
+	},
+	{
+		"name": "Desert",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [230, 172, 0],
+		"uniques": ["Occurs at temperature between [-0.1] and [0.9] and humidity between [0] and [0.2]",
+            "Occurs at temperature between [0.1] and [0.8] and humidity between [0.2] and [0.3]",
+            "Occurs at temperature between [0.2] and [0.7] and humidity between [0.3] and [0.4]",
+            "Occurs at temperature between [0.4] and [0.6] and humidity between [0.4] and [0.5]",
+            "Occurs at temperature between [0.5] and [0.6] and humidity between [0.5] and [0.7]",
+            "[+1] to Fertility for Map Generation",
+            "A Region is formed with at least [25]% [Desert] tiles, with priority [4]",
+            "Becomes [Magma Ravine] when adjacent to [Volcano]",
+            "Becomes [Flood plains] when adjacent to [River]",
+            "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
+            "Every [13] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
+	{
+		"name": "Dragon Peak",
+		"type": "TerrainFeature",
+		"RGB": [168, 57, 38],
+		"science": 1,
+		"gold": 2,
+		"production": 2,
+		"unbuildable": true,
+		"impassable": true,
+		"uniques": ["[+1 Science] <starting from the [Industrial era]>","Doesn't generate naturally"],
+		"occursOn": ["Grassland","Plains","Desert","Tundra","Snow","Forest","Jungle","Hill","Flood plains","Marsh","Mountain"]
+	},
+	{
+		"name": "Mount Dragonjaw",
+		"type": "NaturalWonder",
+		"RGB": [168, 57, 38],
+		"production": 4,
+		"gold": 3,
+		"occursOn": ["Plains","Desert","Tundra"],
+		"uniques": ["Grants [Formation I] ([bonus vs mounted units]) to adjacent [{Military} {Land}] units for the rest of the game"],
+		"turnsInto": "Mountain",
+		"impassable": true,
+		"unbuildable": true,
+		"weight": 10,
+		"civilopediaText": [
+			{"text": "Ancient Dragon spitting fire, scorching the land beyond the sea, turning them into deserts.\nWhen the dragon died, it's body got burried under the moving landmasses. Only the jaws remain above the surface."}
+		]
+	},
+	{
+		"name": "Mesa Desert",
+		"type": "Land",
+		"movementCost": 1,
+		"gold": 1,
+		"RGB": [212, 118, 23],
+		"uniques": [
+	    "[+2] Strength for cities built on this terrain",
+            "Considered [Undesirable] when determining start locations <in all except [Desert] Regions>",
+            "Every [17] tiles with this terrain will receive a major deposit of a strategic resource.",
+         	]
+	},
+	{
+		"name": "Magma Ravine",
+		"type": "Land",
+		"movementCost": 1,
+		"production": 1,
+		"RGB": [246, 47, 12],
+		"uniques": [
+            "Considered [Desirable] when determining start locations",
+            "Only [Oil well] improvements may be built on this tile","Rough terrain",
+	    "Becomes [Plains] when adjacent to [River]",
+            "Every [22] tiles with this terrain will receive a major deposit of a strategic resource.",
+         	]
+	},
+	{
+		"name": "Highlands",
+		"type": "Land",
+		"movementCost": 2,
+		"production": 2,
+		"RGB": [125, 199, 150],
+		"uniques": [
+            "[+2] Strength for cities built on this terrain",
+            "Rough terrain","Considered [Desirable] when determining start locations",
+            "Becomes [Grassland] when adjacent to [River]",
+            "Every [25] tiles with this terrain will receive a major deposit of a strategic resource.",
+         	]
+	},
+	{
+		"name": "UT 1", //Dark Land, unique to Darkian Empire
+		"type": "Land",
+		"production": 1,
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"[+1 Food] <in tiles adjacent to [City center] tiles> <for [Darkian Empire] Civilizations>",
+			"[+1 Culture] <for [Darkian Empire] Civilizations>",
+         	]
+	},
+	{
+		"name": "UT 2",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},
+	{
+		"name": "UT 3",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},
+	{
+		"name": "UT 4",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},
+	{
+		"name": "UT 5",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},
+	{
+		"name": "UT 6",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},
+	{
+		"name": "UT 7",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},
+	{
+		"name": "UT 8",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},
+	{
+		"name": "UT 9",
+		"type": "Land",
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},
+	{
+		"name": "UT 10",
+		"type": "Water",
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},
+	{
+		"name": "UT 11",
+		"type": "Water",
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},
+	{
+		"name": "UT 12",
+		"type": "Water",
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},
+
+	//Features
+	{
+		"name": "Oasis",
+		"type": "TerrainFeature",
+		"food": 3,
+		"gold": 1,
+		"movementCost": 1,
+		"unbuildable": true,
+		"defenceBonus": -0.1,
+		"occursOn": ["Desert"],
+		"uniques": ["Fresh water", "Rare feature", "Fresh Water Source",
+					"Only [All Road] improvements may be built on this tile",
+					"Always Fertility [4] for Map Generation",
+					"Considered [Food] when determining start locations",
+					"Considered [Desirable] when determining start locations"],
+        "civilopediaText": [
+            {"text": "Oases provide fresh water to adjacent tiles, allowing farming where it would otherwise not be possible (similar to Rivers and Lakes)."},
+            {"text": "Rivers", "link":"Terrain/River"},
+            {"text": "Lakes", "link":"Terrain/Lakes"},
+            {"text": "Farm", "link":"Improvement/Farm"},
+            {"text": "Civil Service", "link":"Technology/Civil Service"},
+            {"text": "Fertilizer", "link":"Technology/Fertilizer"}
+        ]
+	},
+	{
+		"name": "Shallow Waters",
+		"type": "TerrainFeature",
+		"movementCost": 3,
+		"RGB": [125, 199, 192],
+		"occursOn": ["Coast"]
+                "uniques": [
+            "Rough terrain",
+            "Every [15] tiles with this terrain will receive a major deposit of a strategic resource.",
+         	]
+	},
+	{
+		"name": "Mangrove Forest",
+		"type": "TerrainFeature",
+		"food": 2,
+		"movementCost": 3,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": 0.25,
+		"occursOn": ["Coast","Plains","Grassland"],
+		"uniques": [
+			"Rough terrain", "Vegetation",
+			"Blocks line-of-sight from tiles at same elevation",
+			"Considered [Desirable] when determining start locations",
+			"Every [20] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
+	{
+		"name": "Volcano",
+		"type": "TerrainFeature",
+		"movementCost": 3,
+		"RGB": [90, 50, 21],
+		"impassable": true,
+		"occursOn": ["Mountain"]
+                "uniques": [
+            "Rough terrain",
+	    "Rare feature",
+		]
+	},
+	{
+		"name": "Geothermal Plains",
+		"type": "TerrainFeature",
+		"food": 2,
+		"movementCost": 1,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": -0.1,
+		"occursOn": ["Tundra"],
+		"uniques": [
+			"Considered [Desirable] when determining start locations","Rare feature",
+			"Every [30] tiles with this terrain will receive a major deposit of a strategic resource."
+		]
+	},
+	{
+		"name": "Quicksand",
+		"type": "TerrainFeature",
+		"movementCost": 10,
+		"overrideStats": true,
+		"unbuildable": true,
+		"defenceBonus": -0.2,
+		"occursOn": ["Desert"],
+		"uniques": [
+			"Only [All Road] improvements may be built on this tile","Considered [Undesirable] when determining start locations","Rare feature",
+			"Never receives any resources"
+		]
+	},
+	{
+		"name": "Rocky Waters",
+		"type": "TerrainFeature",
+		"movementCost": 4,
+		"unbuildable": true,
+		"defenceBonus": -0.15,
+		"occursOn": ["Ocean","Coast"],
+		"uniques": [
+			"Rare feature","Units ending their turn on this terrain take [15] damage","Never receives any resources"
+		]
+	},
+	{
+		"name": "Hill",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": true,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow","Mesa Desert","Highlands","UT 1"],
+		"uniques": ["Rough terrain",
+					"[+5] Strength for cities built on this terrain",
+					"Has an elevation of [1] for visibility calculations",
+					"Occurs in groups around high elevations",
+					"[+1] to Fertility for Map Generation",
+					"A Region is formed with at least [40]% [Hill] tiles, with priority [5]",
+					"Base Terrain on this tile is not counted for Region determination",
+					"Starts in regions of this type receive an extra [Sheep]",
+					"Considered [Desirable] when determining start locations",
+					"Considered [Production] when determining start locations",
+					"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
+	{
+		"name": "UTF 1",  //Used by Deep Mine for being passable
+		"type": "TerrainFeature",
+		"occursOn": ["Mountain"],
+		"movementCost": 2,
+		"impassable": true,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+            		"Rough terrain",
+         	]
+	},	{
+		"name": "UTF 2", //Stream of Life
+		"type": "TerrainFeature",
+		"occursOn": ["Mesa Desert"],
+		"movementCost": 2,
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+			"Fresh water", "Fresh Water Source",
+			"Tile provides yield without assigned population",
+			
+         	]
+	},	{
+		"name": "UTF 3",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},	{
+		"name": "UTF 4",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},	{
+		"name": "UTF 5",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},	{
+		"name": "UTF 6",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},	{
+		"name": "UTF 7",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},	{
+		"name": "UTF 8",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},	{
+		"name": "UTF 9",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},	{
+		"name": "UTF 10",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},	{
+		"name": "UTF 11",
+		"type": "TerrainFeature",
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},
+]
