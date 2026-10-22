@@ -133,7 +133,7 @@
 			  ]
   },
   {
-		"name": "Thunderstorm Tribe",
+		"name": "Belias",
 		"leaderName": "Facundo Guerrero",
 	  	"style": "Diluviano",
 	  	"declaringWar": "It seems your people will have stormy days ahead of them",
@@ -143,10 +143,9 @@
 	    "neutralHello": "Greetings from the lands of Cloudy skies.",
 	    "hateHello": "What?!",
 	    "tradeRequest": "Our tribe values fair exchange. Let us trade and ensure the prosperity of both our people.",
-		"outerColor": [39,126,205],
-		"innerColor": [255,255,255],
+		"outerColor": [1, 1, 1],
+		"innerColor": [39,126,205],
 		"startBias": ["Jungle"],
-	    "favoredReligion": "Humanism",
 		"uniqueName": "Weathering the storm",
 		"uniques": ["[+25]% Strength <for [Wounded] units>",
 		"[+1 Food] from [Plantation] tiles",
