@@ -133,21 +133,27 @@
 			  ]
   },
   {
-		"name": "Belias",
-		"leaderName": "leader",
-	  	"style": "Arepino",
-		"outerColor": [1, 1, 1],
-		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
-	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
-		"cities": ["no_name",
-			  ]
+		"name": "Thunderstorm Tribe",
+		"leaderName": "Facundo Guerrero",
+	  	"style": "Diluviano",
+	  	"declaringWar": "It seems your people will have stormy days ahead of them",
+	    "attacked": "Strike us if you dare! A cornered animal is the most dangerous.",
+	    "defeated": "It is over. The storm has passed... perhaps now I shall finally rest in peace.",
+     	"introduction": "Greetings weary traveler.",
+	    "neutralHello": "Greetings from the lands of Cloudy skies.",
+	    "hateHello": "What?!",
+	    "tradeRequest": "Our tribe values fair exchange. Let us trade and ensure the prosperity of both our people.",
+		"outerColor": [39,126,205],
+		"innerColor": [255,255,255],
+		"startBias": ["Jungle"],
+	    "favoredReligion": "Humanism",
+		"uniqueName": "Weathering the storm",
+		"uniques": ["[+25]% Strength <for [Wounded] units>",
+		"[+1 Food] from [Plantation] tiles",
+		"[+1 Happiness] from [Barracks]",]
+		"cities": ["1", "2", "3", "These Are Not Placeholders"]
+        "spyNames": ["Rodrigo Vivar","Gonzalo Fernández","Isabel Castilla", "Mateo Benítez","Hernando Soto", 
+		"Catalina Mendoza", "Álvaro Bazán", "Valeria Salazar", "Diego Almagro", "Jimena Díaz"]
   },
   {
 		"name": "name",
