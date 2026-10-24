@@ -2,13 +2,11 @@
   //New
 
   {
-		"name": "Firelord",
+		"name": "Naccoshi",
 		"leaderName": "leader",
 	  	"style": "Arepino",
 		"outerColor": [238, 215, 181],
 		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
 	  
 		"uniqueName": "Arepa Cuisine",
 		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
@@ -19,101 +17,76 @@
 			  ]
   },
   {
-		"name": "Doubloon",
+		"name": "The Speng",
 		"leaderName": "Joya Schmith",
 	  	"style": "Arepino",
 		"outerColor": [1, 1, 1],
-		"innerColor": [180, 4, 4],
-
-		"startBias": ["Coast"],
-	  
-		"uniqueName": "The Speng",
-		"uniques": ["Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned","Comment [Units ending their turn on [Mountain] tiles take [50] damage]"],
-
+		"innerColor": [26, 22, 22],
+		"startBias": ["Hill", "Plains"],
+		"uniqueName": "Patronage of the Raven",
+		"uniques": ["[+15]% [Science] [in all cities] <during a Golden Age>","[+20]% Production when constructing [Culture] buildings [in all cities]","[+50]% Production when constructing [Walls] buildings [in all cities]","[+50]% Production when constructing [Var] buildings [in all cities]"],
 		"cities": ["no_name",
 			  ]
   },
   {
-		"name": "Darko",
-		"leaderName": "leader",
-	  	"style": "Arepino",
+		"name": "Arknia",
+		"leaderName": "Darko the Unifier",
+	  	"style": "Darkian",
 		"outerColor": [1, 1, 1],
 		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
-	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
+	    "startIntroPart1":"Ever since Emperor Darko I united the Arknian people under a single state, our civilization has rested upon one immutable order: The nobles' lot: the duty to rule. The priests' lot: the duty to teach. The commoners' lot: the duty to suffer for the glory of the Empire. From time immemorial, this ancient order has endured, unshaken by the passage of centuries. And so shall it endure for centuries yet to come, for such is our place in the grand design of the world.",
+		"uniqueName": "The Three Lots",
+		"uniques": ["[+2 Culture] [in all cities] <before discovering [Steam Power]>"],
 		"cities": ["no_name",]
   },
   {
 		"name": "Fanat",
 		"leaderName": "Davak",
-	  	"style": "Arepino",
+	  	"style": "Catish",
+	    "adjective": ["Catish"],
 		"outerColor": [1, 1, 1],
 		"innerColor": [0, 98, 175],
-
-		"startBias": ["Mountain"],
-	  
-		"uniqueName": "Catish",
-		"uniques": ["..."],
-
+	    "startIntroPart1": "For years, the people were tormented by greedy individuals who wouldn't rest until they'd gotten their hands on every coin. Tribal leaders who promised prosperity merely sought to sate their appetites. The more tribes there were, the more people there were in the cities, the more discontent grew, as if branches were being thrown onto a fire that was already blazing. But then a hero, later described in legends, appeared—Davak. He subjugated most of the tribes, and those who dared to rebel were defeated and either killed or exiled to distant lands. An initiative was adopted to improve the quality of life in the cities and surrounding areas. Networks of local public recreation areas were created, law and order was strengthened, and supply points were established in remote regions, which generally reduced discontent among the civilian population.",
+		"startBias": ["Grassland"],
+		"uniqueName": "Population Growth",
+		"uniques": ["[+100]% unhappiness from the number of cities", "[-50]% Unhappiness from [Population] [in all cities]"],
 		"cities": ["no_name",
 			  ]
   },
   {
 		"name": "HyperRed",
-		"leaderName": "leader",
-	  	"style": "Arepino",
+		"leaderName": "High Chieftain Arven I",
+	  	"style": "Veryan",
 		"outerColor": [1, 1, 1],
-		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
-	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
-		"cities": ["no_name",
-			  ]
+		"innerColor": [0, 109, 104],
+		"startBias": [""],
+		"uniqueName": "",
+		"uniques": [""],
+		"cities": ["Althyr", "Rendakar", "Selun", "Thorval", "Belvar", "Arkhaven", "Merath"]
   },
   {
 		"name": "Clementine",
 		"leaderName": "leader",
-	  	"style": "Arepino",
+	    "Adjective":"Clementines",
+	  	"style": "Clementines",
 		"outerColor": [1, 1, 1],
-		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
-	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
-		"cities": ["no_name",
-			  ]
+		"innerColor": [255, 106, 0],
+		"startBias": [""],
+		"uniqueName": "",
+		"uniques": [""],
+		"cities": ["Bird","Juices","Clemenrubi","Fawkes","Orogrós","Xephyra","Clemenules","Ho-oh","Tang Gold","Algerian Clementine","Fina","Clemenule","Clementine del Golfo di Taranto","Clementine di Calabria"]
   },
   {
-		"name": "Phantom",
-		"leaderName": "leader",
-	  	"style": "Arepino",
+		"name": "Aquarian",
+		"leaderName": "Falix Remalus",
+	  	"style": "Aquarian",
 		"outerColor": [1, 1, 1],
-		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
-	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
-		"cities": ["no_name",
-			  ]
+		"innerColor": [0, 0, 204],
+		"startBias": ["Mountain", "Coast"],
+		"uniqueName": "Jewels of Archipelagos",
+		"uniques": ["[+50]% [Gold] from every [Water resource]", 
+			"[+1 Culture] from every [Coast]","[+2 Science] from every [Atoll] <after discovering [Biology]>"],
+		"cities": ["no_name",]
   },
   {
 		"name": "Gandalf",
@@ -133,7 +106,7 @@
 			  ]
   },
   {
-		"name": "Belias",
+		"name": "The Thunderstorm Tribe",
 		"leaderName": "Facundo Guerrero",
 	  	"style": "Diluviano",
 	  	"declaringWar": "It seems your people will have stormy days ahead of them",
@@ -155,38 +128,48 @@
 		"Catalina Mendoza", "Álvaro Bazán", "Valeria Salazar", "Diego Almagro", "Jimena Díaz"]
   },
   {
-		"name": "name",
-		"leaderName": "leader",
-	  	"style": "Arepino",
+		"name": "Dathayans",
+		"leaderName": "Davith of Ayutthaya",
+	  	"style": "Dathayans",
 		"outerColor": [1, 1, 1],
 		"innerColor": [119, 2, 23],
 
-		"startBias": ["Mountain"],
+        "defeated": "That's not okayish.",
+     	"introduction": "Hello, I'm okayish.",
+	    "neutralHello": "Hello, I'm okayish.",
+	    "hateHello": "That's not okayish.",
+	    "tradeRequest": "Hello, I'm okayish.",
 	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
+		"startBias": ["Avoid [Tundra]"],
+		"uniqueName": "Deus Vult",
+		"uniqueText": "Land units may move immediately once bought. Receive free Shrine in capital at the beginning of the game and then in each of your cities after researching Philosophy. Receive a free Temple after researching Education",
+		"uniques": ["[Land] units gain the [Crusader] promotion","Gain a free [Shrine] [in capital]","Gain a free [Shrine] [in all cities] <after discovering [Philosophy]>","Gain a free [Temple] [in all cities] <after discovering [Education]>"],
 
 		"cities": ["no_name",
 			  ]
   },
   {
-		"name": "name",
-		"leaderName": "leader",
+		"name": "Wailing People of the West",
+		"leaderName": "King of Sorrows",
 	  	"style": "Arepino",
 		"outerColor": [1, 1, 1],
 		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
 	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
+        "startIntroPart1": "The Wailing People of the West were once the fantastic happy people of the south but after persecution, famine, drought, and a bad case of indigestion; everyone agreed that it was no longer fantastic and happy to live in the south. So they packed up and moved and now live in the slightly better western lands. The King of Sorrows has led the people for many years and has become somewhat apathetic after losing his oldest wolf hound. Now he only has his second oldest wolf hound to keep him company. The Wailing People of the West can often be found building, admiring, or hanging out with their pyramids they build to honour their sacred grey wolves. But the often wonder, what else could they build and what do the north and eastern lands look like? And why does everyone else have to be so judgy?",
+     	"declaringWar": "The great old King of Sorrow’s grey wolf hound is hungry!",
+	    "attacked": "Strike us if you dare! A cornered animal is the most dangerous.",
+	    "defeated": "Great, fine, do what you want, I’m going to go die in my pyramid now. I hope they write stories about me.",
+     	"introduction": "The great old King of Sorrows greats you by saying hi, or hello, or whatever.",
+	    "neutralHello": "The great old King of Sorrows greats you by saying hi, or hello, or whatever.",
+	    "hateHello": "The great old King of Sorrows greats you by saying hi, or hello, or whatever.",
+	    "tradeRequest": "The great old King of Sorrows says ‘hey, do you have a second?’.",
+	  
+		"startBias": ["Jungle"],
+		"uniqueName": "The Long Count",
+		"uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
+			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
 
-		"cities": ["no_name",
-			  ]
+		"cities": ["The Best New City", "The Second Best City", "Okayish City", "Not The Best City", "Why Did We Build This City", "We Settled For This Settlement", "If We Must We Will Live Here", "The Third Best City", "Wolf Kennel", "Vacation Castle", "This City Needs No Name", "Dog Biscuit Storage", "We Miss The South", "Nowhere Else To Live"]
   },
   {
 		"name": "name",
