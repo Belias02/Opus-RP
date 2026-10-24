@@ -2,7 +2,7 @@
   //New
 
   {
-		"name": "Naccoshi",
+		"name": "Firelord",
 		"leaderName": "leader",
 	  	"style": "Arepino",
 		"outerColor": [238, 215, 181],
@@ -17,7 +17,7 @@
 			  ]
   },
   {
-		"name": "The Speng",
+		"name": "Doubloon",
 		"leaderName": "Joya Schmith",
 	  	"style": "Arepino",
 		"outerColor": [1, 1, 1],
@@ -29,7 +29,7 @@
 			  ]
   },
   {
-		"name": "Arknia",
+		"name": "Darko",
 		"leaderName": "Darko the Unifier",
 	  	"style": "Darkian",
 		"outerColor": [1, 1, 1],
@@ -77,7 +77,7 @@
 		"cities": ["Bird","Juices","Clemenrubi","Fawkes","Orogrós","Xephyra","Clemenules","Ho-oh","Tang Gold","Algerian Clementine","Fina","Clemenule","Clementine del Golfo di Taranto","Clementine di Calabria"]
   },
   {
-		"name": "Aquarian",
+		"name": "Phantom",
 		"leaderName": "Falix Remalus",
 	  	"style": "Aquarian",
 		"outerColor": [1, 1, 1],
@@ -106,7 +106,7 @@
 			  ]
   },
   {
-		"name": "The Thunderstorm Tribe",
+		"name": "Belias",
 		"leaderName": "Facundo Guerrero",
 	  	"style": "Diluviano",
 	  	"declaringWar": "It seems your people will have stormy days ahead of them",
