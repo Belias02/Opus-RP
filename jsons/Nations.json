@@ -128,7 +128,7 @@
 		"Catalina Mendoza", "Álvaro Bazán", "Valeria Salazar", "Diego Almagro", "Jimena Díaz"]
   },
   {
-		"name": "Dathayans",
+		"name": "David",
 		"leaderName": "Davith of Ayutthaya",
 	  	"style": "Dathayans",
 		"outerColor": [1, 1, 1],
@@ -149,7 +149,7 @@
 			  ]
   },
   {
-		"name": "Wailing People of the West",
+		"name": "Puppyface",
 		"leaderName": "King of Sorrows",
 	  	"style": "Arepino",
 		"outerColor": [1, 1, 1],
@@ -172,7 +172,63 @@
 		"cities": ["The Best New City", "The Second Best City", "Okayish City", "Not The Best City", "Why Did We Build This City", "We Settled For This Settlement", "If We Must We Will Live Here", "The Third Best City", "Wolf Kennel", "Vacation Castle", "This City Needs No Name", "Dog Biscuit Storage", "We Miss The South", "Nowhere Else To Live"]
   },
   {
-		"name": "name",
+		"name": "Luis",
+		"leaderName": "Yuri Volkov",
+	  	"style": "Arepino",
+		"outerColor": [1, 1, 1],
+		"innerColor": [163, 8, 34],
+
+        "startIntroPart1": "History remembers revolutions by the promises they make. The Crimson Imperium remembers the one that kept its promise: the revolution led by Yuri Volkov. He overthrew a monarchy that had mistaken its ancient privileges for an eternal right to rule. The people stood beside him, believing that a new age had begun. And a new age did begin. The old symbols were torn down, the institutions of the crown were dismantled, and a fractured nation was forged into a single state. Yet freedom alone cannot build a country, and hope alone cannot defend it. Today, the Volkar live beneath the crimson banner of an empire built on discipline, sacrifice, and unbreakable unity. Some remember the revolution with pride. Others remember what followed with fear. Yuri Volkov remembers both, and he has no intention of allowing history to repeat itself.",
+        "startIntroPart2": "Yuri Volkov, First Leader of the Crimson Imperium, the architect of a revolution and guardian of a nation that cannot afford another collapse. Your people look to you for direction, whether through conviction or necessity. Beyond your borders lie rivals who would exploit every weakness, while within them linger those who dream of restoring the old order. You know what disorder costs. You know how quickly a nation can be brought to its knees when its people lose faith in its institutions. The Volkar do not need another king, nor do they need another revolution. They need a future that cannot be taken from them. Will you secure the borders, strengthen the state, and prove that the Crimson Imperium can endure long after its enemies have vanished? History will judge your methods. Your people will live with their consequences. The choice is yours, Yuri Volkov."
+	    "declaringWar": "You mistook our restraint for weakness; now you will learn the price of that mistake.",
+        "attacked": "You chose this war, and your people will bear witness to the consequences.",
+        "defeated": "I may have fallen, but I will never regret freeing my people from the old order.",
+        "introduction": "I am Yuri Volkov, leader of the Crimson Imperium. I overthrew a monarchy that believed itself untouchable, and I will not allow my nation to be brought to its knees again. We prefer stability to chaos, strength to empty promises, and peace secured by mutual respect to war born of arrogance. Let us determine whether our nations can prosper side by side. I assure you, I intend to protect mine.",
+        "afterPeace": "Let the guns fall silent; the Imperium has better things to build than ruins.",
+        "tradeRequest": "Let us exchange what we can spare and gain what we need; both our nations shall benefit."
+	  
+		"startBias": ["Mountain"],
+		"uniqueName": "Arepa Cuisine",
+		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
+			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
+			"Expantionist"],
+
+		"cities": ["Yurigrad", "Krasnov", "Zoryagrad", "Varkesh", "Dravinsk", "Orlovsk", "Belovar", "Karsograd", "Novy Krest", "Morvinsk", "Drazhny", "Veligrad", "Severosk", "Radekov", "Chernovik", "Ostrovar", "Zhelezgrad", "Mirsk", "Tarnov", "Volnigrad"",
+			  ]
+  },
+  {
+		"name": "OSpin",
+		"leaderName": "Väinämöinen",
+	  	"style": "Arepino",
+		"outerColor": [1, 1, 1],
+		"innerColor": [13, 181, 178],
+
+		"uniqueName": "Worship of the Old Gods",
+		"uniques": ["[+1 Faith] [in all cities] <before the [Medieval era]>"],
+
+		"cities": ["no_name",
+			  ]
+  },
+  {
+		"name": "Really",
+		"leaderName": "Iron Twilight",
+	  	"style": "Arepino",
+		"outerColor": [1, 1, 1],
+		"innerColor": [71, 6, 89],
+
+		"startBias": ["Plains","Coast"],
+	    "uniqueName": "Oil Bonanza",
+        "uniques": ["Double quantity of [Oil] produced",
+			"[+1 Production] from [All] tiles [in all cities] <with [1] to [6] neighboring [Oil] tiles>", 
+			"[-50]% maintenance on road & railroads <with [Oil]>",
+			"[-15]% maintenance cost for buildings [in all cities] <with [Oil]>",
+			"Free [Great General] appears <upon discovering [Military Science]>"],
+
+		"cities": ["Steel City", "Black Crucible", "Titanium Eagle", "Iron Lung", "Forged Sun", "Silver Castle", "Weeping Ruin", "Rusted Dome", "Bleeding Moon", "Tempered Fall"
+			  ]
+  },
+  {
+		"name": "Ravignir",
 		"leaderName": "leader",
 	  	"style": "Arepino",
 		"outerColor": [1, 1, 1],
@@ -188,42 +244,8 @@
 		"cities": ["no_name",
 			  ]
   },
-  {
-		"name": "name",
-		"leaderName": "leader",
-	  	"style": "Arepino",
-		"outerColor": [1, 1, 1],
-		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
-	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
-		"cities": ["no_name",
-			  ]
-  },
-  {
-		"name": "name",
-		"leaderName": "leader",
-	  	"style": "Arepino",
-		"outerColor": [1, 1, 1],
-		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
-	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
-		"cities": ["no_name",
-			  ]
-  },
-  {
-		"name": "name",
+	{
+		"name": "Tycer",
 		"leaderName": "leader",
 	  	"style": "Arepino",
 		"outerColor": [1, 1, 1],
