@@ -206,7 +206,7 @@
 		"uniqueName": "Worship of the Old Gods",
 		"uniques": ["[+1 Faith] [in all cities] <before the [Medieval era]>"],
 
-		"cities": ["no_name",
+		"cities": ["Helsinki","Espoo","Tampere","Vantaa","Turku","Oulu","Lahti","Kuopio","Jyvaeskylae","Pori","Lappeenranta","Vaasa","Kotka","Joensuu","Haemeenlinna","Porvoo","Mikkeli","Hyvinge","Jaevenpaeae","Nurmijaervi","Rauma","Mellunkylae","Lohja","Vuosaari","Kokkola",
 			  ]
   },
   {
