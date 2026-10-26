@@ -8,11 +8,8 @@
 		"outerColor": [238, 215, 181],
 		"innerColor": [119, 2, 23],
 	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
+		"uniqueName": "Mineral Exports",
+		"uniques": ["[+100]% [Gold] from every [Gold Ore]","[+100]% [Gold] from every [Silver]","[+100]% [Gold] from every [Gems]"],
 		"cities": ["no_name",
 			  ]
   },
@@ -35,6 +32,15 @@
 		"outerColor": [1, 1, 1],
 		"innerColor": [119, 2, 23],
 	    "startIntroPart1":"Ever since Emperor Darko I united the Arknian people under a single state, our civilization has rested upon one immutable order: The nobles' lot: the duty to rule. The priests' lot: the duty to teach. The commoners' lot: the duty to suffer for the glory of the Empire. From time immemorial, this ancient order has endured, unshaken by the passage of centuries. And so shall it endure for centuries yet to come, for such is our place in the grand design of the world.",
+	  	"declaringWar": "By the Emperor’s supreme mercy, you are granted twenty-four hours to lay down your arms. You would be wise to make good use of them.",
+	    "attacked": "So be it. War it is.",
+     	"defeated": "Impossible... I was never meant to fall.",
+    	"introduction": "I am Darko the First, Emperor of the Blessed Arknian Empire, Patriarch of the Tempest Dynasty, Unifier of All Arknian Lands, Protector of the Seven Provinces, Guardian of the Immutable Old Order, and Bearer of the Twins’ Will, Law, and Love. Speak, foreign ruler. What brings you before my throne?",
+     	"neutralHello": "Welcome to the Imperial Court. Speak freely, foreign ruler. The Emperor is listening.",
+	    "hateHello": "Insolent lowlife! You dare present yourself before my throne?",
+	    "tradeRequest": "In the Emperor’s absolute and unparalleled benevolence, this offer is extended to you.",
+	    "denounced": "The lion does not concern himself with the opinions of sheep."
+	  
 		"uniqueName": "The Three Lots",
 		"uniques": ["[+2 Culture] [in all cities] <before discovering [Steam Power]>"],
 		"cities": ["no_name",]
@@ -153,7 +159,7 @@
 		"leaderName": "King of Sorrows",
 	  	"style": "Arepino",
 		"outerColor": [1, 1, 1],
-		"innerColor": [119, 2, 23],
+		"innerColor": [11, 62, 189],
 	  
         "startIntroPart1": "The Wailing People of the West were once the fantastic happy people of the south but after persecution, famine, drought, and a bad case of indigestion; everyone agreed that it was no longer fantastic and happy to live in the south. So they packed up and moved and now live in the slightly better western lands. The King of Sorrows has led the people for many years and has become somewhat apathetic after losing his oldest wolf hound. Now he only has his second oldest wolf hound to keep him company. The Wailing People of the West can often be found building, admiring, or hanging out with their pyramids they build to honour their sacred grey wolves. But the often wonder, what else could they build and what do the north and eastern lands look like? And why does everyone else have to be so judgy?",
      	"declaringWar": "The great old King of Sorrow’s grey wolf hound is hungry!",
@@ -188,10 +194,9 @@
         "tradeRequest": "Let us exchange what we can spare and gain what we need; both our nations shall benefit."
 	  
 		"startBias": ["Mountain"],
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
+		"uniqueName": "Mining Riches",
+		"uniques": ["[+2 Gold, +2 Production] from every [Quarry]", "[+2 Production] from every [Copper]",
+			   "[+1 Gold] from every [Mine] <during a Golden Age>"],
 
 		"cities": ["Yurigrad", "Krasnov", "Zoryagrad", "Varkesh", "Dravinsk", "Orlovsk", "Belovar", "Karsograd", "Novy Krest", "Morvinsk", "Drazhny", "Veligrad", "Severosk", "Radekov", "Chernovik", "Ostrovar", "Zhelezgrad", "Mirsk", "Tarnov", "Volnigrad"",
 			  ]
@@ -253,11 +258,8 @@
 
 		"startBias": ["Mountain"],
 	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
+		"uniqueName": "Scourge of God",
+		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game"],
 		"cities": ["no_name",
 			  ]
   },
