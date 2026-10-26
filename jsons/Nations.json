@@ -7,14 +7,9 @@
 	  	"style": "Arepino",
 		"outerColor": [238, 215, 181],
 		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
 	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
+		"uniqueName": "Mineral Exports",
+		"uniques": ["[+100]% [Gold] from every [Gold Ore]","[+100]% [Gold] from every [Silver]","[+100]% [Gold] from every [Gems]"],
 		"cities": ["no_name",
 			  ]
   },
@@ -23,97 +18,81 @@
 		"leaderName": "Joya Schmith",
 	  	"style": "Arepino",
 		"outerColor": [1, 1, 1],
-		"innerColor": [180, 4, 4],
-
-		"startBias": ["Coast"],
-	  
-		"uniqueName": "The Speng",
-		"uniques": ["Gain a free [Harbor] [in all coastal cities]","Land units may cross [Mountain] tiles after the first [Great General] is earned","Comment [Units ending their turn on [Mountain] tiles take [50] damage]"],
-
+		"innerColor": [26, 22, 22],
+		"startBias": ["Hill", "Plains"],
+		"uniqueName": "Patronage of the Raven",
+		"uniques": ["[+15]% [Science] [in all cities] <during a Golden Age>","[+20]% Production when constructing [Culture] buildings [in all cities]","[+50]% Production when constructing [Walls] buildings [in all cities]","[+50]% Production when constructing [Var] buildings [in all cities]"],
 		"cities": ["no_name",
 			  ]
   },
   {
 		"name": "Darko",
-		"leaderName": "leader",
-	  	"style": "Arepino",
+		"leaderName": "Darko the Unifier",
+	  	"style": "Darkian",
 		"outerColor": [1, 1, 1],
 		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
+	    "startIntroPart1":"Ever since Emperor Darko I united the Arknian people under a single state, our civilization has rested upon one immutable order: The nobles' lot: the duty to rule. The priests' lot: the duty to teach. The commoners' lot: the duty to suffer for the glory of the Empire. From time immemorial, this ancient order has endured, unshaken by the passage of centuries. And so shall it endure for centuries yet to come, for such is our place in the grand design of the world.",
+	  	"declaringWar": "By the Emperor’s supreme mercy, you are granted twenty-four hours to lay down your arms. You would be wise to make good use of them.",
+	    "attacked": "So be it. War it is.",
+     	"defeated": "Impossible... I was never meant to fall.",
+    	"introduction": "I am Darko the First, Emperor of the Blessed Arknian Empire, Patriarch of the Tempest Dynasty, Unifier of All Arknian Lands, Protector of the Seven Provinces, Guardian of the Immutable Old Order, and Bearer of the Twins’ Will, Law, and Love. Speak, foreign ruler. What brings you before my throne?",
+     	"neutralHello": "Welcome to the Imperial Court. Speak freely, foreign ruler. The Emperor is listening.",
+	    "hateHello": "Insolent lowlife! You dare present yourself before my throne?",
+	    "tradeRequest": "In the Emperor’s absolute and unparalleled benevolence, this offer is extended to you.",
+	    "denounced": "The lion does not concern himself with the opinions of sheep."
 	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
+		"uniqueName": "The Three Lots",
+		"uniques": ["[+2 Culture] [in all cities] <before discovering [Steam Power]>"],
 		"cities": ["no_name",]
   },
   {
 		"name": "Fanat",
 		"leaderName": "Davak",
-	  	"style": "Arepino",
+	  	"style": "Catish",
+	    "adjective": ["Catish"],
 		"outerColor": [1, 1, 1],
 		"innerColor": [0, 98, 175],
-
-		"startBias": ["Mountain"],
-	  
-		"uniqueName": "Catish",
-		"uniques": ["..."],
-
+	    "startIntroPart1": "For years, the people were tormented by greedy individuals who wouldn't rest until they'd gotten their hands on every coin. Tribal leaders who promised prosperity merely sought to sate their appetites. The more tribes there were, the more people there were in the cities, the more discontent grew, as if branches were being thrown onto a fire that was already blazing. But then a hero, later described in legends, appeared—Davak. He subjugated most of the tribes, and those who dared to rebel were defeated and either killed or exiled to distant lands. An initiative was adopted to improve the quality of life in the cities and surrounding areas. Networks of local public recreation areas were created, law and order was strengthened, and supply points were established in remote regions, which generally reduced discontent among the civilian population.",
+		"startBias": ["Grassland"],
+		"uniqueName": "Population Growth",
+		"uniques": ["[+100]% unhappiness from the number of cities", "[-50]% Unhappiness from [Population] [in all cities]"],
 		"cities": ["no_name",
 			  ]
   },
   {
 		"name": "HyperRed",
-		"leaderName": "leader",
-	  	"style": "Arepino",
+		"leaderName": "High Chieftain Arven I",
+	  	"style": "Veryan",
 		"outerColor": [1, 1, 1],
-		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
-	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
-		"cities": ["no_name",
-			  ]
+		"innerColor": [0, 109, 104],
+		"startBias": [""],
+		"uniqueName": "",
+		"uniques": [""],
+		"cities": ["Althyr", "Rendakar", "Selun", "Thorval", "Belvar", "Arkhaven", "Merath"]
   },
   {
 		"name": "Clementine",
 		"leaderName": "leader",
-	  	"style": "Arepino",
+	    "Adjective":"Clementines",
+	  	"style": "Clementines",
 		"outerColor": [1, 1, 1],
-		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
-	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
-		"cities": ["no_name",
-			  ]
+		"innerColor": [255, 106, 0],
+		"startBias": [""],
+		"uniqueName": "",
+		"uniques": [""],
+		"cities": ["Bird","Juices","Clemenrubi","Fawkes","Orogrós","Xephyra","Clemenules","Ho-oh","Tang Gold","Algerian Clementine","Fina","Clemenule","Clementine del Golfo di Taranto","Clementine di Calabria"]
   },
   {
 		"name": "Phantom",
-		"leaderName": "leader",
-	  	"style": "Arepino",
+		"leaderName": "Falix Remalus",
+	  	"style": "Aquarian",
 		"outerColor": [1, 1, 1],
-		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
-	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
-		"cities": ["no_name",
-			  ]
+		"innerColor": [0, 0, 204],
+		"startBias": ["Mountain", "Coast"],
+		"uniqueName": "Jewels of Archipelagos",
+		"uniques": ["[+50]% [Gold] from every [Water resource]", 
+			"[+1 Culture] from every [Coast]","[+2 Science] from every [Atoll] <after discovering [Biology]>"],
+		"cities": ["no_name",]
   },
   {
 		"name": "Gandalf",
@@ -155,7 +134,106 @@
 		"Catalina Mendoza", "Álvaro Bazán", "Valeria Salazar", "Diego Almagro", "Jimena Díaz"]
   },
   {
-		"name": "name",
+		"name": "David",
+		"leaderName": "Davith of Ayutthaya",
+	  	"style": "Dathayans",
+		"outerColor": [1, 1, 1],
+		"innerColor": [119, 2, 23],
+
+        "defeated": "That's not okayish.",
+     	"introduction": "Hello, I'm okayish.",
+	    "neutralHello": "Hello, I'm okayish.",
+	    "hateHello": "That's not okayish.",
+	    "tradeRequest": "Hello, I'm okayish.",
+	  
+		"startBias": ["Avoid [Tundra]"],
+		"uniqueName": "Deus Vult",
+		"uniqueText": "Land units may move immediately once bought. Receive free Shrine in capital at the beginning of the game and then in each of your cities after researching Philosophy. Receive a free Temple after researching Education",
+		"uniques": ["[Land] units gain the [Crusader] promotion","Gain a free [Shrine] [in capital]","Gain a free [Shrine] [in all cities] <after discovering [Philosophy]>","Gain a free [Temple] [in all cities] <after discovering [Education]>"],
+
+		"cities": ["no_name",
+			  ]
+  },
+  {
+		"name": "Puppyface",
+		"leaderName": "King of Sorrows",
+	  	"style": "Arepino",
+		"outerColor": [1, 1, 1],
+		"innerColor": [11, 62, 189],
+	  
+        "startIntroPart1": "The Wailing People of the West were once the fantastic happy people of the south but after persecution, famine, drought, and a bad case of indigestion; everyone agreed that it was no longer fantastic and happy to live in the south. So they packed up and moved and now live in the slightly better western lands. The King of Sorrows has led the people for many years and has become somewhat apathetic after losing his oldest wolf hound. Now he only has his second oldest wolf hound to keep him company. The Wailing People of the West can often be found building, admiring, or hanging out with their pyramids they build to honour their sacred grey wolves. But the often wonder, what else could they build and what do the north and eastern lands look like? And why does everyone else have to be so judgy?",
+     	"declaringWar": "The great old King of Sorrow’s grey wolf hound is hungry!",
+	    "attacked": "Strike us if you dare! A cornered animal is the most dangerous.",
+	    "defeated": "Great, fine, do what you want, I’m going to go die in my pyramid now. I hope they write stories about me.",
+     	"introduction": "The great old King of Sorrows greats you by saying hi, or hello, or whatever.",
+	    "neutralHello": "The great old King of Sorrows greats you by saying hi, or hello, or whatever.",
+	    "hateHello": "The great old King of Sorrows greats you by saying hi, or hello, or whatever.",
+	    "tradeRequest": "The great old King of Sorrows says ‘hey, do you have a second?’.",
+	  
+		"startBias": ["Jungle"],
+		"uniqueName": "The Long Count",
+		"uniques": ["Receive a free Great Person at the end of every [Maya Long Count calendar cycle] (every 394 years), after researching [Theology]. Each bonus person can only be chosen once.",
+			"Once The Long Count activates, the year on the world screen displays as the traditional Mayan Long Count."],
+
+		"cities": ["The Best New City", "The Second Best City", "Okayish City", "Not The Best City", "Why Did We Build This City", "We Settled For This Settlement", "If We Must We Will Live Here", "The Third Best City", "Wolf Kennel", "Vacation Castle", "This City Needs No Name", "Dog Biscuit Storage", "We Miss The South", "Nowhere Else To Live"]
+  },
+  {
+		"name": "Luis",
+		"leaderName": "Yuri Volkov",
+	  	"style": "Arepino",
+		"outerColor": [1, 1, 1],
+		"innerColor": [163, 8, 34],
+
+        "startIntroPart1": "History remembers revolutions by the promises they make. The Crimson Imperium remembers the one that kept its promise: the revolution led by Yuri Volkov. He overthrew a monarchy that had mistaken its ancient privileges for an eternal right to rule. The people stood beside him, believing that a new age had begun. And a new age did begin. The old symbols were torn down, the institutions of the crown were dismantled, and a fractured nation was forged into a single state. Yet freedom alone cannot build a country, and hope alone cannot defend it. Today, the Volkar live beneath the crimson banner of an empire built on discipline, sacrifice, and unbreakable unity. Some remember the revolution with pride. Others remember what followed with fear. Yuri Volkov remembers both, and he has no intention of allowing history to repeat itself.",
+        "startIntroPart2": "Yuri Volkov, First Leader of the Crimson Imperium, the architect of a revolution and guardian of a nation that cannot afford another collapse. Your people look to you for direction, whether through conviction or necessity. Beyond your borders lie rivals who would exploit every weakness, while within them linger those who dream of restoring the old order. You know what disorder costs. You know how quickly a nation can be brought to its knees when its people lose faith in its institutions. The Volkar do not need another king, nor do they need another revolution. They need a future that cannot be taken from them. Will you secure the borders, strengthen the state, and prove that the Crimson Imperium can endure long after its enemies have vanished? History will judge your methods. Your people will live with their consequences. The choice is yours, Yuri Volkov."
+	    "declaringWar": "You mistook our restraint for weakness; now you will learn the price of that mistake.",
+        "attacked": "You chose this war, and your people will bear witness to the consequences.",
+        "defeated": "I may have fallen, but I will never regret freeing my people from the old order.",
+        "introduction": "I am Yuri Volkov, leader of the Crimson Imperium. I overthrew a monarchy that believed itself untouchable, and I will not allow my nation to be brought to its knees again. We prefer stability to chaos, strength to empty promises, and peace secured by mutual respect to war born of arrogance. Let us determine whether our nations can prosper side by side. I assure you, I intend to protect mine.",
+        "afterPeace": "Let the guns fall silent; the Imperium has better things to build than ruins.",
+        "tradeRequest": "Let us exchange what we can spare and gain what we need; both our nations shall benefit."
+	  
+		"startBias": ["Mountain"],
+		"uniqueName": "Mining Riches",
+		"uniques": ["[+2 Gold, +2 Production] from every [Quarry]", "[+2 Production] from every [Copper]",
+			   "[+1 Gold] from every [Mine] <during a Golden Age>"],
+
+		"cities": ["Yurigrad", "Krasnov", "Zoryagrad", "Varkesh", "Dravinsk", "Orlovsk", "Belovar", "Karsograd", "Novy Krest", "Morvinsk", "Drazhny", "Veligrad", "Severosk", "Radekov", "Chernovik", "Ostrovar", "Zhelezgrad", "Mirsk", "Tarnov", "Volnigrad"",
+			  ]
+  },
+  {
+		"name": "OSpin",
+		"leaderName": "Väinämöinen",
+	  	"style": "Arepino",
+		"outerColor": [1, 1, 1],
+		"innerColor": [13, 181, 178],
+
+		"uniqueName": "Worship of the Old Gods",
+		"uniques": ["[+1 Faith] [in all cities] <before the [Medieval era]>"],
+
+		"cities": ["Helsinki","Espoo","Tampere","Vantaa","Turku","Oulu","Lahti","Kuopio","Jyvaeskylae","Pori","Lappeenranta","Vaasa","Kotka","Joensuu","Haemeenlinna","Porvoo","Mikkeli","Hyvinge","Jaevenpaeae","Nurmijaervi","Rauma","Mellunkylae","Lohja","Vuosaari","Kokkola",
+			  ]
+  },
+  {
+		"name": "Really",
+		"leaderName": "Iron Twilight",
+	  	"style": "Arepino",
+		"outerColor": [1, 1, 1],
+		"innerColor": [71, 6, 89],
+
+		"startBias": ["Plains","Coast"],
+	    "uniqueName": "Oil Bonanza",
+        "uniques": ["Double quantity of [Oil] produced",
+			"[+1 Production] from [All] tiles [in all cities] <with [1] to [6] neighboring [Oil] tiles>", 
+			"[-50]% maintenance on road & railroads <with [Oil]>",
+			"[-15]% maintenance cost for buildings [in all cities] <with [Oil]>",
+			"Free [Great General] appears <upon discovering [Military Science]>"],
+
+		"cities": ["Steel City", "Black Crucible", "Titanium Eagle", "Iron Lung", "Forged Sun", "Silver Castle", "Weeping Ruin", "Rusted Dome", "Bleeding Moon", "Tempered Fall"
+			  ]
+  },
+  {
+		"name": "Ravignir",
 		"leaderName": "leader",
 	  	"style": "Arepino",
 		"outerColor": [1, 1, 1],
@@ -171,8 +249,8 @@
 		"cities": ["no_name",
 			  ]
   },
-  {
-		"name": "name",
+	{
+		"name": "Tycer",
 		"leaderName": "leader",
 	  	"style": "Arepino",
 		"outerColor": [1, 1, 1],
@@ -180,79 +258,8 @@
 
 		"startBias": ["Mountain"],
 	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
-		"cities": ["no_name",
-			  ]
-  },
-  {
-		"name": "name",
-		"leaderName": "leader",
-	  	"style": "Arepino",
-		"outerColor": [1, 1, 1],
-		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
-	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
-		"cities": ["no_name",
-			  ]
-  },
-  {
-		"name": "name",
-		"leaderName": "leader",
-	  	"style": "Arepino",
-		"outerColor": [1, 1, 1],
-		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
-	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
-		"cities": ["no_name",
-			  ]
-  },
-  {
-		"name": "name",
-		"leaderName": "leader",
-	  	"style": "Arepino",
-		"outerColor": [1, 1, 1],
-		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
-	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
-		"cities": ["no_name",
-			  ]
-  },
-  {
-		"name": "name",
-		"leaderName": "leader",
-	  	"style": "Arepino",
-		"outerColor": [1, 1, 1],
-		"innerColor": [119, 2, 23],
-
-		"startBias": ["Mountain"],
-	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
-
+		"uniqueName": "Scourge of God",
+		"uniques": ["[+1 Production] from every [Pasture]", "Cities are razed [2] times as fast", "Starts with [Animal Husbandry]", "\"Borrows\" city names from other civilizations in the game"],
 		"cities": ["no_name",
 			  ]
   },

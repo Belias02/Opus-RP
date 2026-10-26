@@ -1,0 +1,35 @@
+[
+  // Pantheon
+  {
+    "name": "Martial Rites",
+    "type": "Pantheon",
+    "uniques": [
+      "New [Military] units start with [5] XP [in this city]"
+    ]
+  },
+  // Follower
+  {
+    "name": "Watchful Devotion",
+    "type": "Follower",
+    "uniques": [
+      "All newly-trained [All] units [in this city] receive the [Sentry] promotion",
+      "[+1 Faith] from every [Walls]",
+      "[+1 Faith] from [Fort] tiles [in this city]"
+    ]
+  },
+  // Founder
+  {
+    "name": "Divine Crusade",
+    "type": "Founder",
+    "uniques": [
+      "All newly-trained [Military] units [in all cities] receive the [Crusader] promotion",
+      "[-10]% Gold cost of purchasing units",
+      "[-10]% Gold cost of purchasing units <during a Golden Age>"]
+  },
+  // Enhancer
+  {
+  "name": "Learn from failure",
+  "type": "Enhancer",
+  "uniques": ["[+25]% XP gained from combat"]
+  },
+]
