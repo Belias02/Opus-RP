@@ -23,8 +23,8 @@
     "type": "Founder",
     "uniques": [
       "All newly-trained [Military] units [in all cities] receive the [Crusader] promotion",
-      "[-10]% Gold cost of purchasing units",
-      "[-10]% Gold cost of purchasing units <during a Golden Age>"]
+      "[Gold] cost of purchasing [All] units [-10]%",
+      "[Gold] cost of purchasing [All] units [-10]% <during a Golden Age>"
   },
   // Enhancer
   {
