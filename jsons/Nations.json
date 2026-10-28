@@ -1,6 +1,5 @@
 [
   //New
-
   {
 		"name": "Firelord",
 		"leaderName": "leader",
@@ -22,8 +21,7 @@
 		"startBias": ["Hill", "Plains"],
 		"uniqueName": "Patronage of the Raven",
 		"uniques": ["[+15]% [Science] [in all cities] <during a Golden Age>","[+20]% Production when constructing [Culture] buildings [in all cities]","[+50]% Production when constructing [Walls] buildings [in all cities]","[+50]% Production when constructing [Var] buildings [in all cities]"],
-		"cities": ["no_name",
-			  ]
+		"cities": ["no_name",]
   },
   {
 		"name": "Darko",
@@ -47,17 +45,25 @@
   },
   {
 		"name": "Fanat",
-		"leaderName": "Davak",
+		"leaderName": "Queen Samira",
 	  	"style": "Catish",
 	    "adjective": ["Catish"],
 		"outerColor": [1, 1, 1],
-		"innerColor": [0, 98, 175],
-	    "startIntroPart1": "For years, the people were tormented by greedy individuals who wouldn't rest until they'd gotten their hands on every coin. Tribal leaders who promised prosperity merely sought to sate their appetites. The more tribes there were, the more people there were in the cities, the more discontent grew, as if branches were being thrown onto a fire that was already blazing. But then a hero, later described in legends, appeared—Davak. He subjugated most of the tribes, and those who dared to rebel were defeated and either killed or exiled to distant lands. An initiative was adopted to improve the quality of life in the cities and surrounding areas. Networks of local public recreation areas were created, law and order was strengthened, and supply points were established in remote regions, which generally reduced discontent among the civilian population.",
-		"startBias": ["Grassland"],
+		"innerColor": [91, 72, 39],
+      	"startIntroPart1": "I am Davak III, Queen's right hand, guardian of the river cities and defender of our people. Our ancestors learned to survive through patience, ingenuity, and unity. The cat once saved us from CATastrophe of rats that filled our cities, and now the serve us as our symbol. Cats know when to wait and when to act, and we as them must devour rats that has taken place in our country",
+        "startIntroPart2": "Our merchants travel beyond the mountains, our scholars study the ways of nature, and our scouts know every path through the forests. We welcome those who respect our independence, and we remember those who threaten it. Tell me, stranger: shall our peoples prosper together, or shall history remember us as rivals?",
+        "declaringWar": "You mistook our patience for weakness. The fox has left its den, and the Catish will not retreat until our lands are secure.",
+        "attacked": "So you have chosen death! Remember this day well, for the Catish do not forget those who bring war to their door.",
+        "defeated": "Our cities may fall, and our banners may be taken, but people of Catish will never vanish. The Catish will rise, and one day our children shall reclaim what was lost.",
+        "afterPeace": "The hunt is over, and both our peoples have paid its price. Let this peace be more than a pause between wars. We shall remember the past, but we need not repeat it.",
+        "introduction": "I am Davak III, right hand of Queen Samira The Catish. Before the audience with her Majesty you will speak with me. May our meeting prove beneficial to us both.",
+        "neutralHello": "Welcome, foreign friend. What brings you to the lands of the Catish?",
+        "hateHello": "You have returned. Speak carefully, your next words may be your last words.",
+        "tradeRequest": "Our merchants have prepared an offer. Examine it carefully, and let us see whether our interests may be served together.","startBias": ["Grassland"],
 		"uniqueName": "Population Growth",
 		"uniques": ["[+100]% unhappiness from the number of cities", "[-50]% Unhappiness from [Population] [in all cities]"],
-		"cities": ["no_name",
-			  ]
+        "cities": ["Kavarabad", "Davakabad", "Foxford", "Mishrak", "Ashenvale", "Tavira", "Narin", "Kestrel", "Orsava", "Silverbrook", "Ravenspire", "Daram", "Martenhold", "Willowmere", "Karash", "Amberford", "Lynford", "Mirevan", "Old Paws", "Redtail"],
+        "spyNames": ["Narin", "Tavik", "Mira", "Saren", "Velan", "Rashida", "Darin", "Selka", "Arven", "Nadira", "Kamil", "Farah", "Tarin", "Esma", "Ravin", "Laleh", "Orhan", "Darya", "Kamran", "Leyla"]
   },
   {
 		"name": "HyperRed",
@@ -66,8 +72,8 @@
 		"outerColor": [1, 1, 1],
 		"innerColor": [0, 109, 104],
 		"startBias": [""],
-		"uniqueName": "",
-		"uniques": [""],
+	    "uniqueName": "The Glory of the Empire",
+		"uniques": ["[+25]% Production towards any buildings that already exist in the Capital"],
 		"cities": ["Althyr", "Rendakar", "Selun", "Thorval", "Belvar", "Arkhaven", "Merath"]
   },
   {
@@ -241,10 +247,10 @@
 
 		"startBias": ["Mountain"],
 	  
-		"uniqueName": "Arepa Cuisine",
-		"uniques": ["[+1] Movement <for [Land] units> <in [Hill] tiles> <with [Arepa]>",
-			"[+5] HP when healing <within [2] tiles of a [Arepa House]>",
-			"Expantionist"],
+		"uniqueName": "The Mandate of Dhärs",
+		"uniques": ["Units ignore terrain costs when moving into any tile with Hills",
+			"[-50]% maintenance on road & railroads",
+			"No Maintenance costs for improvements in [Hill] tiles"],
 
 		"cities": ["no_name",
 			  ]
@@ -263,6 +269,22 @@
 		"cities": ["no_name",
 			  ]
   },
+	{
+		"name": "Eggy",
+		"leaderName": "Cranky Kong",
+		"adjective": ["Banana Republican"],
+		"startBias": ["Jungle"],
+		"outerColor": [1,1,1],
+		"innerColor": [127,111,0],
+		"uniqueName": "Monkey Business",
+		"uniques": [
+      "[+2 Production, +2 Gold] from [Bananas] tiles [in all cities]",
+      "[+1 Production, +1 Culture, +1 Food] from [All] tiles [in all cities] <with [1] to [6] neighboring [Bananas] tiles> <in [Improvement] tiles>"
+    ],
+		"cities": [
+      "Monkey Central", "Monkey City", "Monkey Town", "Monkey Village", "Monkey Hamlet",
+      "Monkey Outpost", "Monkey Colony", "Monkey Resort", "Monkey Shire", "Monkey Port"
+    ],}
 	//Base
 	{
 		"name": "Barbarians",
