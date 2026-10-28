@@ -124,7 +124,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},
 	{
@@ -133,7 +133,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},
 	{
@@ -142,7 +142,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},
 	{
@@ -151,7 +151,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},
 	{
@@ -160,7 +160,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},
 	{
@@ -169,7 +169,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},
 	{
@@ -178,7 +178,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},
 	{
@@ -187,7 +187,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},
 	{
@@ -196,7 +196,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},
 	{
@@ -205,7 +205,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},
 	{
@@ -214,7 +214,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},
 	{
@@ -223,7 +223,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},
 
@@ -238,7 +238,6 @@
 		"defenceBonus": -0.1,
 		"occursOn": ["Desert"],
 		"uniques": ["Fresh water", "Rare feature", "Fresh Water Source",
-					"Only [All Road] improvements may be built on this tile",
 					"Always Fertility [4] for Map Generation",
 					"Considered [Food] when determining start locations",
 					"Considered [Desirable] when determining start locations"],
@@ -358,6 +357,7 @@
 		"uniques": [
 			"Will not be displayed in Civilopedia",
             		"Rough terrain",
+			"Doesn't generate naturally"
          	]
 	},	{
 		"name": "UTF 2", //Stream of Life
@@ -368,7 +368,7 @@
 			"Will not be displayed in Civilopedia",
 			"Fresh water", "Fresh Water Source",
 			"Tile provides yield without assigned population",
-			
+			"Doesn't generate naturally"
          	]
 	},	{
 		"name": "UTF 3",
@@ -376,7 +376,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},	{
 		"name": "UTF 4",
@@ -384,7 +384,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},	{
 		"name": "UTF 5",
@@ -392,7 +392,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},	{
 		"name": "UTF 6",
@@ -400,7 +400,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},	{
 		"name": "UTF 7",
@@ -408,7 +408,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},	{
 		"name": "UTF 8",
@@ -416,7 +416,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},	{
 		"name": "UTF 9",
@@ -424,7 +424,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},	{
 		"name": "UTF 10",
@@ -432,7 +432,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},	{
 		"name": "UTF 11",
@@ -440,10 +440,9 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},
-
 	//Other Stuff
 	{
 		"name": "Edge of Map",
@@ -453,7 +452,7 @@
 		"RGB": [10, 10, 10],
 		"uniques": [
 			"Has an elevation of [10] for visibility calculations",
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},
 	{
@@ -463,7 +462,7 @@
 		"impassable": true,
 		"RGB": [100, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},
 	{
@@ -473,7 +472,7 @@
 		"impassable": true,
 		"RGB": [10, 100, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},
 	{
@@ -483,7 +482,7 @@
 		"impassable": true,
 		"RGB": [10, 10, 100],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},
 	{
@@ -493,7 +492,7 @@
 		"impassable": true,
 		"RGB": [150, 79, 122],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},
 	{
@@ -503,8 +502,7 @@
 		"impassable": true,
 		"RGB": [31, 81, 111],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},
-	
 ]
