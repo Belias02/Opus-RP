@@ -85,6 +85,7 @@
 		"type": "Land",
 		"movementCost": 1,
 		"gold": 1,
+		"production": 1,
 		"RGB": [212, 118, 23],
 		"uniques": [
 	    "[+2] Strength for cities built on this terrain",
@@ -113,6 +114,7 @@
 		"RGB": [125, 199, 150],
 		"uniques": [
             "[+2] Strength for cities built on this terrain",
+			"[+1 Culture <with [1] to [6] neighboring [Mountain] tiles>]",
             "Rough terrain","Considered [Desirable] when determining start locations",
             "Becomes [Grassland] when adjacent to [River]",
             "Every [25] tiles with this terrain will receive a major deposit of a strategic resource.",
@@ -337,6 +339,8 @@
 		"name": "Geothermal Plains",
 		"type": "TerrainFeature",
 		"food": 2,
+		"culture": 1,
+		"gold": 1,
 		"movementCost": 1,
 		"overrideStats": true,
 		"unbuildable": true,
