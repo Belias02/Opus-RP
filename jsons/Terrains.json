@@ -229,7 +229,8 @@
          	]
 	},
 
-	//Features	{
+	//Features
+	{
 		"name": "Hill",
 		"type": "TerrainFeature",
 		"production": 2,
