@@ -84,8 +84,8 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"requiredTech": "Agriculture",
-		"uniques": ["Can build [Land] improvements on tiles <[3] times>", "Automation is a primary action"],
-		"cost": 15
+		"uniques": ["Can build [Land] improvements on tiles", "Automation is a primary action"],
+		"cost": 70
 	},
 	{
 		"name": "Scout",
