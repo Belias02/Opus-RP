@@ -71,6 +71,7 @@
 		"turnsToBuild": 3,
 		"uniques": [
       			"Gives a defensive bonus of [5]%",
+				"Cannot be built on [Oasis] tiles",
 				"Costs [1] [Gold] per turn",
 				"Can be built just outside your borders",
 				"Cannot be built on [{non-[your]} {non-[Unowned]}] tiles <hidden from users>", //Not in other players tiles
@@ -109,6 +110,7 @@
 		"techRequired": "Mining"
 		"uniques": [
       			"Gives a defensive bonus of [15]%",
+				"Cannot be built on [Oasis] tiles",
 				"Costs [1] [Gold] per turn",
 				"Can be built just outside your borders",
 				"Cannot be built on [{non-[your]} {non-[Unowned]}] tiles <hidden from users>", //Not in other players tiles
@@ -130,6 +132,7 @@
 		"techRequired": "Construction"
 		"uniques": [
       			"Gives a defensive bonus of [25]%",
+				"Cannot be built on [Oasis] tiles",
 				"Costs [2] [Gold] per turn",
 				"Can be built just outside your borders",
 				"Cannot be built on [{non-[your]} {non-[Unowned]}] tiles <hidden from users>", //Not in other players tiles
@@ -150,6 +153,7 @@
 		"techRequired": "Guilds"
 		"uniques": [
       			"Gives a defensive bonus of [20]%",
+				"Cannot be built on [Oasis] tiles",
 				"Costs [1] [Gold] per turn",
 				"Can be built just outside your borders",
 				"Cannot be built on [{non-[your]} {non-[Unowned]}] tiles <hidden from users>", //Not in other players tiles
@@ -171,6 +175,7 @@
 		"techRequired": "Engineering"
 		"uniques": [
       			"Gives a defensive bonus of [40]%",
+				"Cannot be built on [Oasis] tiles",
 				"Costs [3] [Gold] per turn",
 				"Gain control over [Unowned] tiles in a [1]-tile radius",
 				"Only available <within [5] tiles of a [{your} {City center}]> <hidden from users>",
@@ -189,6 +194,7 @@
 		"techRequired": "Guilds"
 		"uniques": [
 				"Only available <after discovering [Engineering]>",
+				"Cannot be built on [Oasis] tiles",
       			"Gives a defensive bonus of [30]%",
 				"Costs [2] [Gold] per turn",
 				"Can be built just outside your borders",
@@ -212,6 +218,7 @@
 		"techRequired": "Physics"
 		"uniques": [
       			"Gives a defensive bonus of [40]%",
+				"Cannot be built on [Oasis] tiles",
 				"Costs [2] [Gold] per turn",
 				"Gain control over [Unowned] tiles in a [1]-tile radius",
 				"Only available <within [5] tiles of a [{your} {City center}]> <hidden from users>",
@@ -232,6 +239,7 @@
 		"techRequired": "Physics"
 		"uniques": [
 				"Only available <after discovering [Guilds]>",
+				"Cannot be built on [Oasis] tiles",
       			"Gives a defensive bonus of [50]%",
 				"Adjacent enemy units ending their turn take [10] damage",
 				"Costs [4] [Gold] per turn",
@@ -251,6 +259,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
 				"Great Improvement",
+				"Cannot be built on [Oasis] tiles",
 				"Gives a defensive bonus of [100]%",
 				"Adjacent enemy units ending their turn take [30] damage",
 				"Can be built just outside your borders",
@@ -264,5 +273,65 @@
 				"TIER I Fort",
             	"Will not be replaced by automated units"
 		]
+	},
+
+	//Base Game
+	{
+		"name": "Farm",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Flood plains"],
+		"food": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Agriculture",
+		"uniques": [
+			"Can also be built on tiles adjacent to fresh water",
+			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
+			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
+			"Cannot be built on [Oasis] tiles",
+            "Pillaging this improvement yields approximately [+18 Gold]"],
+		"shortcutKey": "F"
+	},
+	{
+		"name": "Trading post",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle","Flood plains"],
+		"gold": 1,
+		"turnsToBuild": 7,
+		"techRequired": "Guilds",
+		"uniques": ["[+1 Gold] <after discovering [Economics]>","Cannot be built on [Oasis] tiles", "Pillaging this improvement yields approximately [+20 Gold]"],
+		"shortcutKey": "T"
+	},
+	{
+		"name": "Academy",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"science": 8,
+		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>","Cannot be built on [Oasis] tiles",
+            "[+2 Science] <after discovering [Atomic Theory]>", "Removes removable features when built",
+            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Landmark",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"culture": 6,
+		"uniques": ["Great Improvement", "Removes removable features when built","Cannot be built on [Oasis] tiles",
+            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Manufactory",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"production": 4,
+		"uniques": ["Great Improvement", "[+1 Production] <after discovering [Chemistry]>", "Will not be replaced by automated units","Cannot be built on [Oasis] tiles",
+            "Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Customs house",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"gold": 8,
+		"uniques": ["Great Improvement", "[+2 Gold] <after discovering [Economics]>", "Removes removable features when built","Cannot be built on [Oasis] tiles",
+            "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
+	},
+	{
+		"name": "Holy site",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"faith": 6,
+		"uniques": ["Great Improvement","Cannot be built on [Oasis] tiles", "Removes removable features when built", "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 ]

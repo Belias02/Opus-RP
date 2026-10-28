@@ -124,7 +124,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
 	},
 	{
@@ -133,7 +133,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
 	},
 	{
@@ -142,7 +142,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
 	},
 	{
@@ -151,7 +151,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
 	},
 	{
@@ -160,7 +160,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
 	},
 	{
@@ -169,7 +169,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
 	},
 	{
@@ -178,7 +178,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
 	},
 	{
@@ -187,7 +187,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
 	},
 	{
@@ -196,7 +196,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
 	},
 	{
@@ -205,7 +205,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
 	},
 	{
@@ -214,7 +214,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
 	},
 	{
@@ -223,11 +223,32 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
 	},
 
 	//Features
+	{
+		"name": "Hill",
+		"type": "TerrainFeature",
+		"production": 2,
+		"movementCost": 2,
+		"overrideStats": true,
+		"defenceBonus": 0.25,
+		"RGB": [105,125,72],
+		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow"],
+		"uniques": ["Rough terrain",
+					"[+5] Strength for cities built on this terrain",
+					"Has an elevation of [1] for visibility calculations",
+					"Occurs in groups around high elevations",
+					"[+1] to Fertility for Map Generation",
+					"A Region is formed with at least [40]% [Hill] tiles, with priority [5]",
+					"Base Terrain on this tile is not counted for Region determination",
+					"Starts in regions of this type receive an extra [Sheep]",
+					"Considered [Desirable] when determining start locations",
+					"Considered [Production] when determining start locations",
+					"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."]
+	},
 	{
 		"name": "Oasis",
 		"type": "TerrainFeature",
@@ -335,7 +356,7 @@
 		"overrideStats": true,
 		"defenceBonus": 0.25,
 		"RGB": [105,125,72],
-		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow","Mesa Desert","Highlands"],
+		"occursOn": ["Tundra","Plains","Grassland","Desert","Snow","Mesa Desert","Highlands","IMT 1","IMT 2","IMT 3","IMT 4","IMT 5","UMT 2","UMT 3","UMT 4","UMT 5"],
 		"uniques": ["Rough terrain",
 					"[+5] Strength for cities built on this terrain",
 					"Has an elevation of [1] for visibility calculations",
@@ -349,34 +370,30 @@
 					"Every [22] tiles with this terrain will receive a major deposit of a strategic resource."]
 	},
 	{
-		"name": "UTF 1",  //Used by Deep Mine for being passable
+		"name": "UTF 1",
 		"type": "TerrainFeature",
-		"occursOn": ["Mountain"],
-		"movementCost": 2,
-		"impassable": true,
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
-            		"Rough terrain",
-			"Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
-	},	{
-		"name": "UTF 2", //Stream of Life
+	},
+	{
+		"name": "UTF 2",
 		"type": "TerrainFeature",
-		"occursOn": ["Mesa Desert"],
-		"movementCost": 2,
+		"movementCost": 1,
+		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
-			"Fresh water", "Fresh Water Source",
-			"Tile provides yield without assigned population",
-			"Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
-	},	{
+	},
+	{
 		"name": "UTF 3",
 		"type": "TerrainFeature",
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
 	},	{
 		"name": "UTF 4",
@@ -384,7 +401,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
 	},	{
 		"name": "UTF 5",
@@ -392,7 +409,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
 	},	{
 		"name": "UTF 6",
@@ -400,7 +417,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
 	},	{
 		"name": "UTF 7",
@@ -408,15 +425,15 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
 	},	{
 		"name": "UTF 8",
 		"type": "TerrainFeature",
 		"movementCost": 1,
-		"RGB": [10, 10, 10],
+		"RGB": [10, 10, 10]
 		"uniques": [
-			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
 	},	{
 		"name": "UTF 9",
@@ -424,7 +441,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
 	},	{
 		"name": "UTF 10",
@@ -432,7 +449,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
 	},	{
 		"name": "UTF 11",
@@ -440,7 +457,7 @@
 		"movementCost": 1,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
+			"Will not be displayed in Civilopedia","Excluded from map editor","Doesn't generate naturally"
          	]
 	},
 	//Other Stuff
@@ -505,4 +522,55 @@
 			"Will not be displayed in Civilopedia", "Doesn't generate naturally"
          	]
 	},
+	{
+		"name": "UMT 1",
+		"type": "Land",
+		"movementCost": 1,
+		"impassable": true,
+		"RGB": [10, 10, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},
+	{
+		"name": "UMT 2",
+		"type": "Land",
+		"movementCost": 1,
+		"impassable": true,
+		"RGB": [10, 100, 10],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},
+	{
+		"name": "UMT 3",
+		"type": "Land",
+		"movementCost": 1,
+		"impassable": true,
+		"RGB": [10, 10, 100],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},
+	{
+		"name": "UMT 4",
+		"type": "Land",
+		"movementCost": 1,
+		"impassable": true,
+		"RGB": [150, 79, 122],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},
+	{
+		"name": "UMT 5",
+		"type": "Land",
+		"movementCost": 1,
+		"impassable": true,
+		"RGB": [31, 81, 111],
+		"uniques": [
+			"Will not be displayed in Civilopedia",
+         	]
+	},
+	
 ]
