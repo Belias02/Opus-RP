@@ -304,7 +304,7 @@
 		"RGB": [125, 199, 192],
 		"occursOn": ["Coast"]
                 "uniques": [
-            "Rough terrain",
+            "Rough terrain","Doesn't generate naturally"
             "Every [15] tiles with this terrain will receive a major deposit of a strategic resource.",
          	]
 	},
@@ -363,7 +363,7 @@
 		"occursOn": ["Desert"],
 		"uniques": [
 			"Only [All Road] improvements may be built on this tile","Units ending their turn on this terrain take [10] damage","Considered [Undesirable] when determining start locations","Rare feature",
-			"Never receives any resources"
+			"Never receives any resources","Doesn't generate naturally"
 		]
 	},
 	{
@@ -537,7 +537,7 @@
 		"impassable": true,
 		"RGB": [10, 10, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia","Doesn't generate naturally"
          	]
 	},
 	{
@@ -547,7 +547,7 @@
 		"impassable": true,
 		"RGB": [10, 100, 10],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia","Doesn't generate naturally"
          	]
 	},
 	{
@@ -557,7 +557,7 @@
 		"impassable": true,
 		"RGB": [10, 10, 100],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia","Doesn't generate naturally"
          	]
 	},
 	{
@@ -567,7 +567,7 @@
 		"impassable": true,
 		"RGB": [150, 79, 122],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia","Doesn't generate naturally"
          	]
 	},
 	{
@@ -577,7 +577,7 @@
 		"impassable": true,
 		"RGB": [31, 81, 111],
 		"uniques": [
-			"Will not be displayed in Civilopedia",
+			"Will not be displayed in Civilopedia","Doesn't generate naturally"
          	]
 	},
 	
