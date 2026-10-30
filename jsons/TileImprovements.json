@@ -287,7 +287,7 @@
 			"[+1 Food] from [Fresh water] tiles <after discovering [Civil Service]>",
 			"[+1 Food] from [non-fresh water] tiles <after discovering [Fertilizer]>",
 			"Cannot be built on [Oasis] tiles",
-			"[+1 Food] <in tiles adjacent to [Volcano]>",
+			"[+1 Food] <in tiles adjacent to [Volcano] tiles>",
             "Pillaging this improvement yields approximately [+18 Gold]"],
 		"shortcutKey": "F"
 	},
