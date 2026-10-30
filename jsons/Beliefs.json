@@ -7,28 +7,23 @@
     {
         "name": "Bless the Fields",
         "type": "Pantheon",
-        "uniques": ["[+1 Production] from every [Cattle]","[+1 Faith] from every [Wheat]","[+1 Food] from every [Corn]"]
+        "uniques": ["[+1 Production] from every [Cattle]","[+1 Faith] from every [Wheat]","[+1 Production] from every [Bison]"]
     },
     {
         "name": "Dance of the Aurora",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from [Tundra] tiles without [Forest] [in this city]", "[+2 Gold] from every [Geothermal Plains]"]
+        "uniques": ["[+1 Faith] from [Tundra] tiles without [Forest] [in this city]", "[+1 Gold] from every [Geothermal Plains]"]
     },
     {
         "name": "Desert Folklore",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Desert]", "[+1 Science] from every [Quicksand]"
+        "uniques": ["[+1 Faith] from every [Desert]"
         ]
     },
     {
         "name": "Earth Mother",
         "type": "Pantheon",
-        "uniques": ["[+1 Faith] from every [Salt]","[+1 Faith] from every [Copper]","[+1 Faith] from every [Iron]","[+1 Faith] from every [Coal]"]
-    },
-    {
-        "name": "Exquisite Feasts",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture, +1 Happiness] from every [Octopus]", "[+1 Culture, +1 Happiness] from every [Truffles]"]
+        "uniques": ["[+1 Faith, +1 Production] from every [Salt]","[+1 Faith, +1 Production] from every [Copper]","[+1 Faith] from every [Iron]","[+1 Faith] from every [Coal]"]
     },
     {
         "name": "Faith Healers",
@@ -68,7 +63,7 @@
     {
         "name": "Goddess of Festivals",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture, +1 Faith] from every [Wine]", "[+1 Culture, +1 Faith] from every [Incense]", "[+1 Culture, +1 Faith] from every [Oils]"]
+        "uniques": ["[+1 Culture, +1 Faith] from every [Wine]", "[+1 Culture, +1 Faith] from every [Incense]", "[+1 Culture, +1 Faith] from every [Dyes]"]
     },
     {
         "name": "Goddess of Love",
@@ -88,7 +83,7 @@
     {
         "name": "Holy Crab",
         "type": "Pantheon",
-        "uniques": ["[+2 Happiness, +2 Culture, +2 Faith] from every [Crab]"]
+        "uniques": ["[+1 Happiness, +2 Culture, +2 Faith] from every [Crab]"]
     },
     {
         "name": "Messenger of the Gods",
@@ -123,27 +118,17 @@
     {
         "name": "Religious Idols",
         "type": "Pantheon",
-        "uniques": ["[+1 Culture, +1 Faith] from every [Gold Ore]", "[+1 Culture, +1 Faith] from every [Silver]"]
+        "uniques": ["[+1 Culture, +1 Faith] from every [Gold Ore]", "[+1 Culture, +1 Faith] from every [Silver]", "[+1 Culture, +1 Faith] from every [Marble]"]
     },
     {
         "name": "Religious Settlements",
         "type": "Pantheon",
-      "uniques": ["[+1 Gold, +1 Culture] from every [Camp]"]
-    },
-    {
-        "name": "Rural Heritage",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture] from every [Pigs]","[+1 Faith] from every [Pumpkins]","[+1 Happiness] from every [Watermelons]"]
+      "uniques": ["[+1 Faith] from every [Wooden Fort]","[+1 Faith] from every [Ringworks]"]
     },
     {
         "name": "Sacred Path",
         "type": "Pantheon",
         "uniques": ["[+1 Culture] from every [Jungle]"]
-    },
-    {
-        "name": "Sacred Spices",
-        "type": "Pantheon",
-        "uniques": ["[+1 Culture, +1 Faith] from every [Chilis]", "[+1 Culture, +1 Faith] from every [Spices]"]
     },
     {
         "name": "Sacred Waters",
@@ -158,17 +143,12 @@
     {
         "name": "Sun God",
         "type": "Pantheon",
-        "uniques": ["[+1 Food] from every [Bananas]","[+1 Food] from every [Citrus]","[+1 Food] from every [Coconuts]","[+1 Food] from every [Mango]"]
-    },
-    {
-        "name": "Tale of the Birds",
-        "type": "Pantheon",
-        "uniques": ["[+2 Faith, +1 Culture] from every [Aviary]","[+1 Faith] from every [Chickens]","[+1 Faith] from every [Turkey]"]
+        "uniques": ["[+1 Food] from every [Bananas]","[+1 Food] from every [Citrus]","[+1 Culture, +1 Faith] from every [Cotton]"]
     },
     {
         "name": "Tears of the Gods",
         "type": "Pantheon",
-        "uniques": ["[+2 Faith] from every [Gems]", "[+2 Faith] from every [Pearls]"]
+        "uniques": ["[+2 Faith, +1 Culture] from every [Gems]", "[+2 Faith, +1 Culture] from every [Pearls]"]
     },
     {
         "name": "Mesa Mysticism",
@@ -183,7 +163,7 @@
     {
         "name": "Sacrificial Fire",
         "type": "Pantheon",
-        "uniques": ["[+2 Faith, +2 Culture] from every [Volcano]"]
+        "uniques": ["[+3 Faith, +3 Culture] from every [Volcano]"]
     },
     {
         "name": "The Way of the Roots",
