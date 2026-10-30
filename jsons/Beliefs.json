@@ -292,7 +292,7 @@
     {
         "name": "Initiation Party",
         "type": "Founder",
-        "uniques": ["[+30 Culture] when a city adopts this religion for the first time (modified by game speed)"]
+        "uniques": ["[+50 Culture] when a city adopts this religion for the first time (modified by game speed)"]
     },
     {
         "name": "Interfaith Dialogue",
@@ -334,14 +334,14 @@
         "type": "Founder",
         "uniques": ["[+1 Culture] from every [5] global followers [in foreign cities]"]
     },
-  {
-    "name": "Divine Purpose",
-    "type": "Founder",
-    "uniques": [
-      "All newly-trained [Military] units [in all cities] receive the [Crusader] promotion",
-      "[Gold] cost of purchasing [All] units [-10]%",
-      "[Gold] cost of purchasing [All] units [-10]% <during a Golden Age>"]
-  },
+    {
+      "name": "Divine Purpose",
+      "type": "Founder",
+      "uniques": [
+        "All newly-trained [Military] units [in all cities] receive the [Crusader] promotion",
+        "[Gold] cost of purchasing [All] units [-10]%",
+        "[Gold] cost of purchasing [All] units [-10]% <during a Golden Age>"]
+    },
     ////////////////////////////////////// Enhancer beliefs ///////////////////////////////////////
   
     {
@@ -439,9 +439,9 @@
         "type": "Enhancer",
         "uniques": ["[+20]% Strength <for [Siege] units> <when attacking>"]
     },
-   {
-  "name": "Learn from failure",
-  "type": "Enhancer",
-  "uniques": ["[+25]% XP gained from combat"]
-  },
+    {
+        "name": "Learn from failure",
+        "type": "Enhancer",
+        "uniques": ["[+25]% XP gained from combat"]
+    },
 ]
