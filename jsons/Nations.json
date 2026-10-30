@@ -232,7 +232,7 @@
         "uniques": ["Double quantity of [Oil] produced",
 			"[+1 Production] from [All] tiles [in all cities] <with [1] to [6] neighboring [Oil] tiles>", 
 			"[-50]% maintenance on road & railroads <with [Oil]>",
-			"[-15]% maintenance cost for buildings [in all cities] <with [Oil]>",
+			"[-15]% maintenance cost for [all] buildings [in all cities] <with [Oil]>",
 			"Free [Great General] appears <upon discovering [Military Science]>"],
 
 		"cities": ["Steel City", "Black Crucible", "Titanium Eagle", "Iron Lung", "Forged Sun", "Silver Castle", "Weeping Ruin", "Rusted Dome", "Bleeding Moon", "Tempered Fall"

@@ -83,4 +83,17 @@
 		"requiredTech": "Pottery",
 		"uniques": ["Only available <when religion is enabled>","Provides [2] [CityImportanceFactor]"]
 	},*/
+	{
+		"name": "University",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": [
+			"[+2 Science] from [Jungle] tiles [in this city]",
+			"[+2 Science] from [Geothermal Plains] tiles [in this city]",
+		],
+		"requiredTech": "Education"
+	},
 ]

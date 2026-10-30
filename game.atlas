@@ -25,38 +25,269 @@ NationIcons/Fanat
   orig: 100, 100
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Tiles/Dark Land
+  rotate: false
+  xy: 683, 395
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Dark Land+Farm
+  rotate: false
+  xy: 575, 133
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Dragon Peak
+  rotate: false
+  xy: 112, 4
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Geothermal Plains
+  rotate: false
+  xy: 400, 76
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grand Mesa
+  rotate: false
+  xy: 899, 459
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Grand MesaM
+  rotate: false
+  xy: 899, 459
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Highlands
+  rotate: false
+  xy: 647, 341
+  size: 32, 38
+  orig: 32, 38
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Tiles/IMT 1
   rotate: false
-  xy: 112, 76
+  xy: 723, 395
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/IMT 2
   rotate: false
-  xy: 575, 351
+  xy: 440, 76
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/UMT 2
+  rotate: false
+  xy: 440, 76
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/IMT 3
   rotate: false
-  xy: 683, 459
+  xy: 939, 459
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/UMT 3
+  rotate: false
+  xy: 939, 459
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/IMT 4
   rotate: false
-  xy: 112, 40
+  xy: 647, 305
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/UMT 4
+  rotate: false
+  xy: 647, 305
   size: 32, 28
   orig: 32, 28
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/IMT 5
   rotate: false
-  xy: 152, 76
+  xy: 763, 395
   size: 32, 28
   orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/UMT 5
+  rotate: false
+  xy: 763, 395
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Magma Ravine
+  rotate: false
+  xy: 480, 76
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Mangrove Forest
+  rotate: false
+  xy: 647, 268
+  size: 32, 29
+  orig: 32, 29
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Mesa Desert
+  rotate: false
+  xy: 979, 459
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Mesa DesertHill
+  rotate: false
+  xy: 803, 395
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Mount Dragonjaw
+  rotate: false
+  xy: 647, 224
+  size: 32, 36
+  orig: 32, 36
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Ocean+Rocky Waters
+  rotate: false
+  xy: 520, 76
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Quicksand
+  rotate: false
+  xy: 843, 395
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Quicksand2
+  rotate: false
+  xy: 647, 188
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Quicksand3
+  rotate: false
+  xy: 400, 40
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Rocky Waters
+  rotate: false
+  xy: 440, 40
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/UMT 1
+  rotate: false
+  xy: 480, 40
+  size: 32, 28
+  orig: 32, 28
+  offset: 0, 0
+  index: -1
+TileSets/FantasyHex/Tiles/Volcano
+  rotate: false
+  xy: 520, 38
+  size: 32, 30
+  orig: 32, 30
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Dragon Peak
+  rotate: false
+  xy: 112, 48
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Highlands
+  rotate: false
+  xy: 575, 323
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Highlands2
+  rotate: false
+  xy: 683, 431
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HillM
+  rotate: false
+  xy: 575, 246
+  size: 64, 69
+  orig: 64, 69
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/HillM2
+  rotate: false
+  xy: 575, 169
+  size: 64, 69
+  orig: 64, 69
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mangrove Forest
+  rotate: false
+  xy: 184, 44
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mesa Desert
+  rotate: false
+  xy: 256, 35
+  size: 64, 69
+  orig: 64, 69
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Mount Dragonjaw
+  rotate: false
+  xy: 755, 431
+  size: 64, 56
+  orig: 64, 56
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Rocky Waters
+  rotate: false
+  xy: 328, 44
+  size: 64, 60
+  orig: 64, 60
+  offset: 0, 0
+  index: -1
+TileSets/HexaRealm/Tiles/Volcano
+  rotate: false
+  xy: 827, 431
+  size: 64, 56
+  orig: 64, 56
   offset: 0, 0
   index: -1
