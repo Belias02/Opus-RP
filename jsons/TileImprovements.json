@@ -67,7 +67,7 @@
 	//Tier 0,
 	{
 		"name": "Encampment",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Hill","Tundra","Forest","Jungle"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Mesa Desert","Highlands","Mangrove Forest","Hill","Tundra","Forest","Jungle"],
 		"turnsToBuild": 3,
 		"uniques": [
       			"Gives a defensive bonus of [5]%",
@@ -105,7 +105,7 @@
 	},
 	{
 		"name": "Wooden Fort",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Mesa Desert","Highlands","Mangrove Forest"],
 		"turnsToBuild": 7,
 		"techRequired": "Mining"
 		"uniques": [
@@ -127,7 +127,7 @@
 	//Tier II
 	{
 		"name": "Fort",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Hill"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Mesa Desert","Highlands","Mangrove Forest","Hill"],
 		"turnsToBuild": 7,
 		"techRequired": "Construction"
 		"uniques": [
@@ -148,7 +148,7 @@
 	},
 	{
 		"name": "Ringworks",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow","Hill"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Mesa Desert","Highlands","Mangrove Forest","Snow","Hill"],
 		"turnsToBuild": 5,
 		"techRequired": "Guilds"
 		"uniques": [
@@ -169,7 +169,7 @@
 	//Tier III
 	{
 		"name": "Fortress",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow","Hill"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Mesa Desert","Highlands","Mangrove Forest","Snow","Hill"],
 		"turnsToBuild": 12,
 		"production": 1,
 		"techRequired": "Engineering"
@@ -189,7 +189,7 @@
 	},
 	{
 		"name": "Motte and Bailey",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow","Hill"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Mesa Desert","Highlands","Mangrove Forest","Snow","Hill"],
 		"turnsToBuild": 7,
 		"techRequired": "Guilds"
 		"uniques": [
@@ -212,7 +212,7 @@
 	//Tier IV
 	{
 		"name": "Stone Keep",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow","Hill"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Mesa Desert","Highlands","Mangrove Forest","Snow","Hill"],
 		"turnsToBuild": 10,
 		"production": 1,
 		"techRequired": "Physics"
@@ -232,7 +232,7 @@
 	},
 	{
 		"name": "Castle",
-		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Snow","Hill"],
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Mesa Desert","Highlands","Mangrove Forest","Snow","Hill"],
 		"turnsToBuild": 14,
 		"production": 1,
 		"culture": 1,
